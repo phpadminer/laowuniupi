@@ -1,0 +1,5970 @@
+port: 7890
+socks-port: 7891
+allow-lan: false
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+  - name: X组 X
+    type: ssr
+    server: zqk.sod
+    port: 10001
+    cipher: chacha20-ietf
+    password: YWJj/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 10262:ab
+  - name: 🇭🇰 香港01-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8000
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇭🇰 香港02-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8001
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇭🇰 香港03-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8002
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇭🇰 香港04-BN-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8003
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇭🇰 香港05-HGC-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8004
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇭🇰 香港专享T-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8040
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇭🇰 香港专享BN-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8041
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇭🇰 香港专享HGC-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8042
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇯🇵 日本01-ChatGPT专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8005
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇯🇵 日本02-ChatGPT专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8006
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇯🇵 日本03-ChatGPT专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8007
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇯🇵 日本04-Gemini专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8008
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇯🇵 日本05-Gemini专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8009
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇨🇳 台湾专享Hinet-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8043
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇨🇳 台湾01- 专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8011
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇨🇳 台湾02- 专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8012
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇺🇸 美国01-Gemini专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8013
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇺🇸 美国02-Gemini专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8014
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇺🇸 美国03-ChatGPT专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8015
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇺🇸 美国04-ChatGPT专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8016
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇺🇸 美国05-西雅图家宽禁BT X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 30000
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇺🇸 美国06-纽约家宽禁BT X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 30007
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇸🇬 新加坡专享-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 20003
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇸🇬 新加坡01-ChatGPT专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8017
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇸🇬 新加坡02-ChatGPT专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8018
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇸🇬 新加坡03-ChatGPT专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 20002
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇰🇷 韩国-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8019
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇹🇷 土耳其-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8020
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇷🇺 俄罗斯-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8021
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇦🇺 澳大利亚-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8022
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇨🇦 加拿大-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8023
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇬🇧 英国-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8024
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇩🇪 德国-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8025
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇹🇭 泰国-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8026
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇿🇦 南非-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8027
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇲🇾 马来西亚-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8028
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇵🇭 菲律宾-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8029
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇻🇳 越南-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8030
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇮🇩 印度尼西亚-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 30005
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇬🇷 希腊-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8031
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇮🇹 意大利-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 30003
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇫🇷 法国-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8032
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇧🇷 巴西-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8033
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇲🇽 墨西哥-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8034
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇪🇸 西班牙-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8035
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇦🇷 阿根廷-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8036
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇦🇪 迪拜-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8037
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇺🇦 乌克兰-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8038
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: 🇸🇦 沙特-专线 X
+    type: ssr
+    server: 9a77.fda7.com
+    port: 8039
+    cipher: aes-128-ctr
+    password: MunCloud?
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 15099:better4_1225
+    obfs-param: none
+  - name: A组 （仅展示，不要选这个) A
+    type: ssr
+    server: baidu.com
+    port: 443
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 77750:a
+    obfs-param: f432277750.microsoft.com
+  - name: 🇨🇳 台湾0101 A
+    type: ssr
+    server: cm01.ezyylink.com
+    port: 5700
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇨🇳 台湾0202 A
+    type: ssr
+    server: cm01.ezyylink.com
+    port: 5701
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇨🇳 台湾0303 A
+    type: ssr
+    server: cm01.ezyylink.com
+    port: 5702
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇨🇳 台湾0404 A
+    type: ssr
+    server: cm01.ezyylink.com
+    port: 5703
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇨🇳 台湾0505 A
+    type: ssr
+    server: cm01.ezyylink.com
+    port: 5704
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇨🇳 台湾0606 A
+    type: ssr
+    server: cm01.ezyylink.com
+    port: 5705
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇭🇰 香港0101 A
+    type: ssr
+    server: cm02.ezyylink.com
+    port: 2400
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇭🇰 香港0202 A
+    type: ssr
+    server: cm02.ezyylink.com
+    port: 2401
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇭🇰 香港0303 A
+    type: ssr
+    server: cm02.ezyylink.com
+    port: 2402
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇭🇰 香港0404 A
+    type: ssr
+    server: cm02.ezyylink.com
+    port: 2403
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇭🇰 香港0505 A
+    type: ssr
+    server: cm02.ezyylink.com
+    port: 2404
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇭🇰 香港0606 A
+    type: ssr
+    server: cm02.ezyylink.com
+    port: 2405
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇭🇰 香港0707 A
+    type: ssr
+    server: cm02.ezyylink.com
+    port: 2406
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇭🇰 香港0808 A
+    type: ssr
+    server: cm02.ezyylink.com
+    port: 2407
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇭🇰 香港0909 A
+    type: ssr
+    server: cm02.ezyylink.com
+    port: 2408
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇭🇰 香港1010 A
+    type: ssr
+    server: cm02.ezyylink.com
+    port: 2409
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇯🇵 日本0101 A
+    type: ssr
+    server: cm01.ezyylink.com
+    port: 3700
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇯🇵 日本0202 A
+    type: ssr
+    server: cm01.ezyylink.com
+    port: 3701
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇯🇵 日本0303 A
+    type: ssr
+    server: cm01.ezyylink.com
+    port: 3702
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇯🇵 日本0404 A
+    type: ssr
+    server: cm01.ezyylink.com
+    port: 3703
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇯🇵 日本0505 A
+    type: ssr
+    server: cm01.ezyylink.com
+    port: 3704
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇯🇵 日本0606 A
+    type: ssr
+    server: cm01.ezyylink.com
+    port: 3705
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇯🇵 日本0707 A
+    type: ssr
+    server: cm01.ezyylink.com
+    port: 3706
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇯🇵 日本0808 A
+    type: ssr
+    server: cm01.ezyylink.com
+    port: 3707
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇯🇵 日本0909 A
+    type: ssr
+    server: cm01.ezyylink.com
+    port: 3708
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇯🇵 日本1010 A
+    type: ssr
+    server: cm01.ezyylink.com
+    port: 3709
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇸🇬 新加坡0101 A
+    type: ssr
+    server: cm03.ezyylink.com
+    port: 6700
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇸🇬 新加坡0202 A
+    type: ssr
+    server: cm03.ezyylink.com
+    port: 6701
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇸🇬 新加坡0303 A
+    type: ssr
+    server: cm03.ezyylink.com
+    port: 6702
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇸🇬 新加坡0404 A
+    type: ssr
+    server: cm03.ezyylink.com
+    port: 6703
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇸🇬 新加坡0505 A
+    type: ssr
+    server: cm03.ezyylink.com
+    port: 6704
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇸🇬 新加坡0606 A
+    type: ssr
+    server: cm03.ezyylink.com
+    port: 6705
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇸🇬 新加坡0707 A
+    type: ssr
+    server: cm03.ezyylink.com
+    port: 6706
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇸🇬 新加坡0808 A
+    type: ssr
+    server: cm03.ezyylink.com
+    port: 6707
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇸🇬 新加坡0909 A
+    type: ssr
+    server: cm03.ezyylink.com
+    port: 6708
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇸🇬 新加坡1010 A
+    type: ssr
+    server: cm03.ezyylink.com
+    port: 6709
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇺🇸 美国0101 A
+    type: ssr
+    server: cm01.ezyylink.com
+    port: 7700
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇺🇸 美国0202 A
+    type: ssr
+    server: cm01.ezyylink.com
+    port: 7701
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇺🇸 美国0303 A
+    type: ssr
+    server: cm01.ezyylink.com
+    port: 7702
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇺🇸 美国0404 A
+    type: ssr
+    server: cm01.ezyylink.com
+    port: 7703
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇺🇸 美国0505 A
+    type: ssr
+    server: cm01.ezyylink.com
+    port: 7704
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇺🇸 美国0606 A
+    type: ssr
+    server: cm01.ezyylink.com
+    port: 7705
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇺🇸 美国0707 A
+    type: ssr
+    server: cm01.ezyylink.com
+    port: 7706
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇺🇸 美国0808 A
+    type: ssr
+    server: cm01.ezyylink.com
+    port: 7707
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇺🇸 美国0909 A
+    type: ssr
+    server: cm01.ezyylink.com
+    port: 7708
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇺🇸 美国1010 A
+    type: ssr
+    server: cm01.ezyylink.com
+    port: 7709
+    cipher: chacha20-ietf
+    password: akZhNEYx/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 136790:c3_1202Kandy
+    obfs-param: 2cf0d136790.microsoft.com
+  - name: 🇭🇰 香港 01 U2
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 24784
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: 🇭🇰 香港 02 U2
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 24785
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: 🇭🇰 香港 03 U2
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 14787
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: 🇭🇰 香港 04 U2
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 14788
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: 🇨🇳 台湾 01 U2
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 24786
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: 🇨🇳 台湾 02 U2
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 24790
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: 🇨🇳 台湾 03 U2
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 14789
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: 🇨🇳 台湾 04 U2
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 14790
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: 🇯🇵 日本 01 U2
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 24791
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: 🇯🇵 日本 02 U2
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 24792
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: 🇯🇵 日本 03 U2
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 14791
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: 🇯🇵 日本 04 U2
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 14792
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: 🇺🇸 美国 01 U2
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 24787
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: 🇺🇸 美国 02 U2
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 24793
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: 🇺🇸 美国 03 U2
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 14793
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: 🇺🇸 美国 04 U2
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 14794
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: 🇸🇬 新加坡 01 U2
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 24789
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: 🇸🇬 新加坡 02 U2
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 24795
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: 🇸🇬 新加坡 03 U2
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 14795
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: 🇸🇬 新加坡 04 U2
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 14796
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: 🇰🇷 KR  01 U2
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 24794
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: 🇰🇷 KR  02 U2
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 14797
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: 🇨🇦 加拿大 01 U2
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 24796
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: 🇨🇦 加拿大 02 U2
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 14798
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: 🇬🇧 英国 01 U2
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 27830
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: 🇬🇧 英国 02 U2
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 17831
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: 🇦🇶 南极洲 01 U2
+    type: ss
+    server: drtnmjjhu.swmixx.cn
+    port: 24797
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: 🇦🇶 南极洲 02 U2
+    type: ss
+    server: sdtfrmnju.bgubvg.cn
+    port: 14799
+    cipher: 2022-blake3-aes-128-gcm
+    password: MjdlZmY4YWIyZDU0OGNkNw==:NGRmZjI1MzMtOTI1OC00OA==
+  - name: B组 (仅展示，不要选这个）
+    type: ss
+    server: qq.com
+    port: 443
+    cipher: chacha20-ietf
+    password: A
+  - name: 🇨🇳 优质 台湾 B01
+    type: ssr
+    server: pr3.jymzffbquawl.com
+    port: 3025
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇨🇳 优质 台湾 B02
+    type: ssr
+    server: pr3.jymzffbquawl.com
+    port: 3035
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇨🇳 优质 台湾 B03
+    type: ssr
+    server: pr3.jymzffbquawl.com
+    port: 3045
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇨🇳 优质 台湾 B04
+    type: ssr
+    server: pr3.jymzffbquawl.com
+    port: 3055
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇸🇬 优质 新加坡 B01
+    type: ssr
+    server: pr3.jymzffbquawl.com
+    port: 6506
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇸🇬 优质 新加坡 B02
+    type: ssr
+    server: pr3.jymzffbquawl.com
+    port: 6507
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇸🇬 优质 新加坡 B03
+    type: ssr
+    server: pr3.jymzffbquawl.com
+    port: 6508
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇸🇬 优质 新加坡 B04
+    type: ssr
+    server: pr3.jymzffbquawl.com
+    port: 6509
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇯🇵 优质 日本 B01
+    type: ssr
+    server: pr3.jymzffbquawl.com
+    port: 4500
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇯🇵 优质 日本 B02
+    type: ssr
+    server: pr3.jymzffbquawl.com
+    port: 4501
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇯🇵 优质 日本 B03
+    type: ssr
+    server: pr3.jymzffbquawl.com
+    port: 4502
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇯🇵 优质 日本 B04
+    type: ssr
+    server: pr3.jymzffbquawl.com
+    port: 4503
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇯🇵 优质 日本 B05
+    type: ssr
+    server: pr3.jymzffbquawl.com
+    port: 4504
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇯🇵 优质 日本 B06
+    type: ssr
+    server: pr3.jymzffbquawl.com
+    port: 4505
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇯🇵 优质 日本 B07
+    type: ssr
+    server: pr3.jymzffbquawl.com
+    port: 4506
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇯🇵 优质 日本 B08
+    type: ssr
+    server: pr3.jymzffbquawl.com
+    port: 4507
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇯🇵 优质 日本 B09
+    type: ssr
+    server: pr3.jymzffbquawl.com
+    port: 4508
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇯🇵 优质 日本 B10
+    type: ssr
+    server: pr3.jymzffbquawl.com
+    port: 4509
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇺🇸 优质 美国 B01
+    type: ssr
+    server: pr3.jymzffbquawl.com
+    port: 5508
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇺🇸 优质 美国 B02
+    type: ssr
+    server: pr3.jymzffbquawl.com
+    port: 5509
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇺🇸 优质 美国 B03
+    type: ssr
+    server: pr3.jymzffbquawl.com
+    port: 5510
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇺🇸 优质 美国 B04
+    type: ssr
+    server: pr3.jymzffbquawl.com
+    port: 5511
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇭🇰 优质 香港 B01
+    type: ssr
+    server: pr1.jymzffbquawl.com
+    port: 3500
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇭🇰 优质 香港 B02
+    type: ssr
+    server: pr1.jymzffbquawl.com
+    port: 3501
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇭🇰 优质 香港 B03
+    type: ssr
+    server: pr1.jymzffbquawl.com
+    port: 3502
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇭🇰 优质 香港 B04
+    type: ssr
+    server: pr1.jymzffbquawl.com
+    port: 3503
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇭🇰 优质 香港 B05
+    type: ssr
+    server: pr1.jymzffbquawl.com
+    port: 3504
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇭🇰 优质 香港 B06
+    type: ssr
+    server: pr1.jymzffbquawl.com
+    port: 3505
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇭🇰 优质 香港 B07
+    type: ssr
+    server: pr1.jymzffbquawl.com
+    port: 3506
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇭🇰 优质 香港 B08
+    type: ssr
+    server: pr1.jymzffbquawl.com
+    port: 3507
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇭🇰 优质 香港 B09
+    type: ssr
+    server: pr1.jymzffbquawl.com
+    port: 3508
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇭🇰 优质 香港 B10
+    type: ssr
+    server: pr1.jymzffbquawl.com
+    port: 3509
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇨🇳 普通 台湾 B01
+    type: ssr
+    server: bs3.jymzffbquawl.com
+    port: 3025
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇨🇳 普通 台湾 B02
+    type: ssr
+    server: bs3.jymzffbquawl.com
+    port: 3035
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇨🇳 普通 台湾 B03
+    type: ssr
+    server: bs3.jymzffbquawl.com
+    port: 3045
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇨🇳 普通 台湾 B04
+    type: ssr
+    server: bs3.jymzffbquawl.com
+    port: 3055
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇸🇬 普通 新加坡 B01
+    type: ssr
+    server: bs3.jymzffbquawl.com
+    port: 6500
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇸🇬 普通 新加坡 B02
+    type: ssr
+    server: bs3.jymzffbquawl.com
+    port: 6501
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇸🇬 普通 新加坡 B03
+    type: ssr
+    server: bs3.jymzffbquawl.com
+    port: 6502
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇸🇬 普通 新加坡 B04
+    type: ssr
+    server: bs3.jymzffbquawl.com
+    port: 6503
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇸🇬 普通 新加坡 B05
+    type: ssr
+    server: bs3.jymzffbquawl.com
+    port: 6504
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇸🇬 普通 新加坡 B06
+    type: ssr
+    server: bs3.jymzffbquawl.com
+    port: 6505
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇯🇵 普通 日本 B01
+    type: ssr
+    server: bs3.jymzffbquawl.com
+    port: 4500
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇯🇵 普通 日本 B02
+    type: ssr
+    server: bs3.jymzffbquawl.com
+    port: 4501
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇯🇵 普通 日本 B03
+    type: ssr
+    server: bs3.jymzffbquawl.com
+    port: 4502
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇯🇵 普通 日本 B04
+    type: ssr
+    server: bs3.jymzffbquawl.com
+    port: 4503
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇯🇵 普通 日本 B05
+    type: ssr
+    server: bs3.jymzffbquawl.com
+    port: 4504
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇯🇵 普通 日本 B06
+    type: ssr
+    server: bs3.jymzffbquawl.com
+    port: 4505
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇯🇵 普通 日本 B07
+    type: ssr
+    server: bs3.jymzffbquawl.com
+    port: 4506
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇯🇵 普通 日本 B08
+    type: ssr
+    server: bs3.jymzffbquawl.com
+    port: 4507
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇯🇵 普通 日本 B09
+    type: ssr
+    server: bs3.jymzffbquawl.com
+    port: 4508
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇯🇵 普通 日本 B10
+    type: ssr
+    server: bs3.jymzffbquawl.com
+    port: 4509
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇺🇸 普通 美国 B01
+    type: ssr
+    server: bs3.jymzffbquawl.com
+    port: 5500
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇺🇸 普通 美国 B02
+    type: ssr
+    server: bs3.jymzffbquawl.com
+    port: 5501
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇺🇸 普通 美国 B03
+    type: ssr
+    server: bs3.jymzffbquawl.com
+    port: 5502
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇺🇸 普通 美国 B04
+    type: ssr
+    server: bs3.jymzffbquawl.com
+    port: 5503
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇺🇸 普通 美国 B05
+    type: ssr
+    server: bs3.jymzffbquawl.com
+    port: 5504
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇺🇸 普通 美国 B06
+    type: ssr
+    server: bs3.jymzffbquawl.com
+    port: 5505
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇭🇰 普通 香港 B01
+    type: ssr
+    server: bs1.jymzffbquawl.com
+    port: 3500
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇭🇰 普通 香港 B02
+    type: ssr
+    server: bs1.jymzffbquawl.com
+    port: 3501
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇭🇰 普通 香港 B03
+    type: ssr
+    server: bs1.jymzffbquawl.com
+    port: 3502
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇭🇰 普通 香港 B04
+    type: ssr
+    server: bs1.jymzffbquawl.com
+    port: 3503
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇭🇰 普通 香港 B05
+    type: ssr
+    server: bs1.jymzffbquawl.com
+    port: 3504
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇭🇰 普通 香港 B06
+    type: ssr
+    server: bs1.jymzffbquawl.com
+    port: 3505
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇭🇰 普通 香港 B07
+    type: ssr
+    server: bs1.jymzffbquawl.com
+    port: 3506
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇭🇰 普通 香港 B08
+    type: ssr
+    server: bs1.jymzffbquawl.com
+    port: 3507
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇭🇰 普通 香港 B09
+    type: ssr
+    server: bs1.jymzffbquawl.com
+    port: 3508
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: 🇭🇰 普通 香港 B10
+    type: ssr
+    server: bs1.jymzffbquawl.com
+    port: 3509
+    cipher: chacha20-ietf
+    password: renzhecloud?
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 293660:rzsun1222C8
+    obfs-param: 852ff293660.microsoft.com
+  - name: D组
+    type: ss
+    server: 127.0.0.1
+    port: 10086
+    cipher: chacha20-ietf
+    password: A
+  - name: 🇦🇺 澳大利亚 悉尼   /0/0  F01
+    type: ssr
+    server: au01.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇦🇺 澳大利亚 悉尼   /0/1  F02
+    type: ssr
+    server: au02.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇦🇺 澳大利亚 悉尼   /0/2  F03
+    type: ssr
+    server: au03.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇦🇺 澳大利亚 悉尼   /0/3  F04
+    type: ssr
+    server: au04.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇦🇺 澳大利亚 悉尼   /0/4  F05
+    type: ssr
+    server: au05.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇦🇺 澳大利亚 悉尼   /0/5  F06
+    type: ssr
+    server: au06.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇦🇺 澳大利亚 悉尼   /0/6  F07
+    type: ssr
+    server: au07.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇦🇺 澳大利亚 悉尼   /0/7  F08
+    type: ssr
+    server: au08.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇦🇺 澳大利亚 悉尼   /0/8  F09
+    type: ssr
+    server: au09.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇦🇺 澳大利亚 悉尼   /0/8  F10
+    type: ssr
+    server: au10.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇦 加拿大 Quebec  /0/23 F01
+    type: ssr
+    server: ca01.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇦 加拿大 Quebec  /0/24  F02
+    type: ssr
+    server: ca02.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇦 加拿大 Quebec  /0/25  F03
+    type: ssr
+    server: ca03.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇦 加拿大 Quebec  /0/26 F04
+    type: ssr
+    server: ca04.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇦 加拿大 Quebec  /0/27  F05
+    type: ssr
+    server: ca05.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇦 加拿大 Quebec  /0/28  F06
+    type: ssr
+    server: ca06.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇦 加拿大 Quebec  /0/29 DELLR6525 F07
+    type: ssr
+    server: ca09.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇦 加拿大 Quebec  /0/30  F08
+    type: ssr
+    server: ca08.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇦 加拿大 Quebec  /0/31  F09
+    type: ssr
+    server: ca09.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇦 加拿大 Quebec  /0/32  F10
+    type: ssr
+    server: ca10.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇫🇷 法国  /0/10  F08
+    type: ssr
+    server: fr08.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇫🇷 法国  /0/11  F09
+    type: ssr
+    server: fr09.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇫🇷 法国  /0/12  F10
+    type: ssr
+    server: fr10.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇫🇷 法国  /0/3  F01
+    type: ssr
+    server: fr01.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇫🇷 法国  /0/4  F02
+    type: ssr
+    server: fr02.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇫🇷 法国  /0/5  F03
+    type: ssr
+    server: fr03.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇫🇷 法国  /0/6  F04
+    type: ssr
+    server: fr04.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇫🇷 法国  /0/7  F05
+    type: ssr
+    server: fr05.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇫🇷 法国  /0/8  F06
+    type: ssr
+    server: fr06.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇫🇷 法国  /0/9  F07
+    type: ssr
+    server: fr07.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇩🇪 德国 Hessen Limburg an der Lahn /0/10  F02
+    type: ssr
+    server: ge02.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇩🇪 德国 Hessen Limburg an der Lahn /0/11  F03
+    type: ssr
+    server: ge03.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇩🇪 德国 Hessen Limburg an der Lahn /0/12  F04
+    type: ssr
+    server: ge04.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇩🇪 德国 Hessen Limburg an der Lahn /0/13  F05
+    type: ssr
+    server: ge05.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇩🇪 德国 Hessen Limburg an der Lahn /0/14  F06
+    type: ssr
+    server: ge06.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇩🇪 德国 Hessen Limburg an der Lahn /0/15  F07
+    type: ssr
+    server: ge07.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇩🇪 德国 Hessen Limburg an der Lahn /0/16  F08
+    type: ssr
+    server: ge08.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇩🇪 德国 Hessen Limburg an der Lahn /0/17  F09
+    type: ssr
+    server: ge09.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇩🇪 德国 Hessen Limburg an der Lahn /0/18  F10
+    type: ssr
+    server: ge10.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇩🇪 德国 Hessen Limburg an der Lahn /0/9  F01
+    type: ssr
+    server: ge01.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 柴湾  /0/23  F39
+    type: ssr
+    server: hk39.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 柴湾  /0/27  F40
+    type: ssr
+    server: hk40.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 柴湾  /0/0  F31
+    type: ssr
+    server: hk31.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 柴湾  /0/1  F32
+    type: ssr
+    server: hk32.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 柴湾  /0/2  F33
+    type: ssr
+    server: hk33.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 柴湾  /0/3  F34
+    type: ssr
+    server: hk34.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 柴湾  /0/4  F35
+    type: ssr
+    server: hk35.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 柴湾  /0/5  F36
+    type: ssr
+    server: hk36.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 柴湾  /0/6  F37
+    type: ssr
+    server: hk37.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 柴湾  /0/7  F38
+    type: ssr
+    server: hk38.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Sha Tin 4 /0/13  F21
+    type: ssr
+    server: hk21.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Sha Tin 4 /0/14  F22
+    type: ssr
+    server: hk22.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Sha Tin 4 /0/15  F23
+    type: ssr
+    server: hk23.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Sha Tin 4 /0/16  F24
+    type: ssr
+    server: hk24.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Sha Tin 4 /0/17  F25
+    type: ssr
+    server: hk25.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Sha Tin 4 /0/18  F26
+    type: ssr
+    server: hk26.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Sha Tin 4 /0/19  F27
+    type: ssr
+    server: hk27.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Sha Tin 4 /0/20  F28
+    type: ssr
+    server: hk28.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Sha Tin 4 /0/21  F29
+    type: ssr
+    server: hk29.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Sha Tin 4 /0/22  F30
+    type: ssr
+    server: hk30.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Sha Tin 4 /0/0  F05
+    type: ssr
+    server: hk05.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Sha Tin 4 /0/1  F06
+    type: ssr
+    server: hk06.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Sha Tin 4 /0/2  F07
+    type: ssr
+    server: hk07.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Sha Tin 4 /0/3  F08
+    type: ssr
+    server: hk08.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Sha Tin 4 /0/4  F09
+    type: ssr
+    server: hk09.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Sha Tin 4 /0/5  F10
+    type: ssr
+    server: hk10.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Sha Tin 4 /0/6  F11
+    type: ssr
+    server: hk11.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Sha Tin 4 /0/7  F12
+    type: ssr
+    server: hk12.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Tsuen Wan 1 /0/0   F01
+    type: ssr
+    server: hk01.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Tsuen Wan 1 /0/1  F02
+    type: ssr
+    server: hk02.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Tsuen Wan 1 /0/2  F03
+    type: ssr
+    server: hk03.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Tsuen Wan 1 /0/3  F04
+    type: ssr
+    server: hk04.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Tsuen Wan 1 /0/10  F13
+    type: ssr
+    server: hk13.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Tsuen Wan 1 /0/11  F14
+    type: ssr
+    server: hk14.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Tsuen Wan 1 /0/12  F15
+    type: ssr
+    server: hk15.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Tsuen Wan 1 /0/13  F16
+    type: ssr
+    server: hk16.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Tsuen Wan 1 /0/14  F17
+    type: ssr
+    server: hk17.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Tsuen Wan 1 /0/15  F18
+    type: ssr
+    server: hk18.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Tsuen Wan 1 /0/16  F19
+    type: ssr
+    server: hk19.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港 Tsuen Wan 1 /0/17  F20
+    type: ssr
+    server: hk20.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇮🇳 印度 孟买 Andheri East EQMB1 /0/0  F01
+    type: ssr
+    server: in01.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇮🇳 印度 孟买 Andheri East EQMB1 /0/1  F02
+    type: ssr
+    server: in02.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇮🇳 印度 孟买 Andheri East EQMB1 /0/2  F03
+    type: ssr
+    server: in03.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇮🇳 印度 孟买 Andheri East EQMB1 /0/3  F04
+    type: ssr
+    server: in04.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇮🇳 印度 孟买 Andheri East EQMB1 /0/4  F05
+    type: ssr
+    server: in05.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇯🇵 日本 Osaka Nishi Ward EQOS1 /0/10  F19
+    type: ssr
+    server: jp19.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇯🇵 日本 Osaka Nishi Ward EQOS1 /0/15  F20
+    type: ssr
+    server: jp20.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇯🇵 日本 Osaka Nishi Ward EQOS1 /0/0  F15
+    type: ssr
+    server: jp15.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇯🇵 日本 Osaka Nishi Ward EQOS1 /0/1  F16
+    type: ssr
+    server: jp16.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇯🇵 日本 Osaka Nishi Ward EQOS1 /0/2  F17
+    type: ssr
+    server: jp17.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇯🇵 日本 Osaka Nishi Ward EQOS1 /0/3  F18
+    type: ssr
+    server: jp18.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇯🇵 日本 东京 品川 EQTY8 /0/0  F09
+    type: ssr
+    server: jp09.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇯🇵 日本 东京 品川 EQTY8 /0/1  F10
+    type: ssr
+    server: jp10.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇯🇵 日本 东京 品川 EQTY8 /0/2  F11
+    type: ssr
+    server: jp11.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇯🇵 日本 东京 品川 EQTY8 /0/3  F12
+    type: ssr
+    server: jp12.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇯🇵 日本 东京 品川 EQTY8 /0/4  F13
+    type: ssr
+    server: jp13.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇯🇵 日本 东京 品川 EQTY8 /0/5  F14
+    type: ssr
+    server: jp14.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇯🇵 日本 东京 Ōta City  /0/0  F01
+    type: ssr
+    server: jp01.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇯🇵 日本 东京 Ōta City  /0/1  F02
+    type: ssr
+    server: jp02.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇯🇵 日本 东京 Ōta City  /0/2  F03
+    type: ssr
+    server: jp03.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇯🇵 日本 东京 Ōta City  /0/3  F04
+    type: ssr
+    server: jp04.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇯🇵 日本 东京 Ōta City  /0/0  F05
+    type: ssr
+    server: jp05.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇯🇵 日本 东京 Ōta City  /0/1  F06
+    type: ssr
+    server: jp06.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇯🇵 日本 东京 Ōta City  /0/2  F07
+    type: ssr
+    server: jp07.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇯🇵 日本 东京 Ōta City  /0/3  F08
+    type: ssr
+    server: jp08.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇷🇺 俄罗斯 莫斯科 район Западное Дегунино  Дата-центр NORD /0/2  F03
+    type: ssr
+    server: ru03.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇷🇺 俄罗斯 莫斯科 район Западное Дегунино  Дата-центр NORD /0/3  F04
+    type: ssr
+    server: ru04.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇷🇺 俄罗斯 莫斯科 район Западное Дегунино  Дата-центр NORD /0/4  F05
+    type: ssr
+    server: ru05.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇷🇺 俄罗斯 莫斯科 район Западное Дегунино  Дата-центр NORD /0/0  F01
+    type: ssr
+    server: ru01.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇷🇺 俄罗斯 莫斯科 район Западное Дегунино  Дата-центр NORD /0/1  F02
+    type: ssr
+    server: ru02.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇸🇬 新加坡 Central Queenstown  /0/0  F01
+    type: ssr
+    server: sgp01.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇸🇬 新加坡 Central Queenstown  /0/1  F02
+    type: ssr
+    server: sgp02.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇸🇬 新加坡 Central Queenstown  /0/2  F03
+    type: ssr
+    server: sgp03.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇸🇬 新加坡 Central Queenstown  /0/3  F04
+    type: ssr
+    server: sgp04.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇸🇬 新加坡 Central Queenstown  /0/4  F05
+    type: ssr
+    server: sgp05.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇸🇬 新加坡 Central Queenstown  /0/5  F06
+    type: ssr
+    server: sgp06.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇸🇬 新加坡 Central Queenstown  /0/6  F07
+    type: ssr
+    server: sgp07.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇸🇬 新加坡 Central Queenstown  /0/7  F08
+    type: ssr
+    server: sgp08.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇸🇬 新加坡 Central Queenstown  /0/8  F09
+    type: ssr
+    server: sgp09.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇸🇬 新加坡 Central Queenstown  /0/9  F10
+    type: ssr
+    server: sgp10.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇰🇷 韩国 首尔 Mapo-gu 1 /0/0  F01
+    type: ssr
+    server: kr01.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇰🇷 韩国 首尔 Mapo-gu 1 /0/1  F02
+    type: ssr
+    server: kr02.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇰🇷 韩国 首尔 Mapo-gu 1 /0/2  F03
+    type: ssr
+    server: kr03.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇰🇷 韩国 首尔 Mapo-gu 1 /0/3  F04
+    type: ssr
+    server: kr04.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇰🇷 韩国 首尔 Mapo-gu 1 /0/4  F05
+    type: ssr
+    server: kr05.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇰🇷 韩国 首尔 Mapo-gu 1 /0/5  F06
+    type: ssr
+    server: kr06.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇰🇷 韩国 首尔 Mapo-gu 1 /0/6  F07
+    type: ssr
+    server: kr07.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇰🇷 韩国 首尔 Mapo-gu 1 /0/7  F08
+    type: ssr
+    server: kr08.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇰🇷 韩国 首尔 Mapo-gu 1 /0/8  F09
+    type: ssr
+    server: kr09.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇰🇷 韩国 首尔 Mapo-gu 1 /0/9  F10
+    type: ssr
+    server: kr10.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇳 台湾 Hsinchu Zhubei /0/0 DL360G10 F17
+    type: ssr
+    server: tw17.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇳 台湾 Hsinchu Zhubei /0/1 DL360G10 F18
+    type: ssr
+    server: tw18.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇳 台湾 Hsinchu Zhubei /0/2 DL360G10 F19
+    type: ssr
+    server: tw18.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇳 台湾 Hsinchu Zhubei /0/3 DL360G10 F20
+    type: ssr
+    server: tw20.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇳 台湾 New Taipei  /0/0  F01
+    type: ssr
+    server: tw01.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇳 台湾 New Taipei  /0/1  F02
+    type: ssr
+    server: tw02.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇳 台湾 New Taipei  /0/2  F03
+    type: ssr
+    server: tw03.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇳 台湾 New Taipei  /0/3  F04
+    type: ssr
+    server: tw04.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇳 台湾 Taipei Xinyi /0/0  F05
+    type: ssr
+    server: tw05.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇳 台湾 Taipei Xinyi /0/1  F06
+    type: ssr
+    server: tw06.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇳 台湾 Taipei Xinyi /0/2 DELLC6520#1 F07
+    type: ssr
+    server: tw07.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇳 台湾 Taipei Xinyi /0/3 DELLC6520#2 F08
+    type: ssr
+    server: tw08.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇳 台湾 Taipei Xinyi /0/4 DELLC6520#3 F09
+    type: ssr
+    server: tw09.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇳 台湾 Taipei Xinyi /0/5 DELLC6520#4 F10
+    type: ssr
+    server: tw10.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇳 台湾 Zhongli Renmei /0/0 DL360G11 F11
+    type: ssr
+    server: tw11.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇳 台湾 Zhongli Renmei /0/1 DL360G11 F12
+    type: ssr
+    server: tw12.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇳 台湾 Zhongli Renmei /0/2 DL360G11 F13
+    type: ssr
+    server: tw13.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇳 台湾 Zhongli Renmei /0/3 DL360G11 F14
+    type: ssr
+    server: tw14.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇳 台湾 Zhongli Renmei /0/4 DL360G11 F15
+    type: ssr
+    server: tw15.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇨🇳 台湾 Zhongli Renmei /0/5 DL360G11 F16
+    type: ssr
+    server: tw16.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/10  F01
+    type: ssr
+    server: uk01.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/11  F02
+    type: ssr
+    server: uk02.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/12  F03
+    type: ssr
+    server: uk03.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/13  F04
+    type: ssr
+    server: uk04.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/14  F05
+    type: ssr
+    server: uk05.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/15  F06
+    type: ssr
+    server: uk06.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/16  F07
+    type: ssr
+    server: uk07.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/2  F08
+    type: ssr
+    server: uk08.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/3  F09
+    type: ssr
+    server: uk09.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/4  F10
+    type: ssr
+    server: uk10.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇺🇸 美国 华盛顿 西雅图  /0/0  F01
+    type: ssr
+    server: us01.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇺🇸 美国 华盛顿 西雅图  /0/1  F02
+    type: ssr
+    server: us02.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇺🇸 美国 华盛顿 西雅图  /0/2  F03
+    type: ssr
+    server: us03.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇺🇸 美国 华盛顿 西雅图  /0/3  F04
+    type: ssr
+    server: us04.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇺🇸 美国 华盛顿 西雅图  /0/4  F05
+    type: ssr
+    server: us05.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇺🇸 美国 华盛顿 西雅图  /0/5  F06
+    type: ssr
+    server: us06.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇺🇸 美国 华盛顿 西雅图  /0/6  F07
+    type: ssr
+    server: us07.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇺🇸 美国 华盛顿 西雅图  /0/7  F08
+    type: ssr
+    server: us08.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇺🇸 美国 华盛顿 西雅图  /0/8  F09
+    type: ssr
+    server: us09.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇺🇸 美国 华盛顿 西雅图  /0/9  F10
+    type: ssr
+    server: us10.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇦🇶 南极 /0/27 DELLXR5610 F01
+    type: ssr
+    server: an01.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇰🇵 朝鲜平壤 /0/10 HuaweiRH1288V3 F01
+    type: ssr
+    server: nk01.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇲🇴 澳门 /0/2  F01
+    type: ssr
+    server: mo01.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港高级  01
+    type: ssr
+    server: qat01.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港高级  02
+    type: ssr
+    server: qat02.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港高级  03
+    type: ssr
+    server: qat03.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港高级  04
+    type: ssr
+    server: qat04.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港高级  05
+    type: ssr
+    server: qat05.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: 🇭🇰 香港高级  06
+    type: ssr
+    server: qat06.forentier.org
+    port: 14781
+    cipher: aes-256-cfb
+    password: ZUNlRnZi/
+    protocol: origin
+    obfs: http_simple
+    obfs-param: download.windowsupdate.com
+  - name: H组(仅展示，不要选这个)
+    type: ss
+    server: baidu.com
+    port: 443
+    cipher: chacha20-ietf
+    password: A
+  - name: 🇨🇳 H1慢 台湾 01
+    type: ssr
+    server: yd-05.paofunlink.com
+    port: 1070
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇨🇳 H1慢 台湾 02
+    type: ssr
+    server: yd-05.paofunlink.com
+    port: 1071
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇨🇳 H1慢 台湾 03
+    type: ssr
+    server: yd-05.paofunlink.com
+    port: 1072
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇨🇳 H1慢 台湾 04
+    type: ssr
+    server: yd-02.paofunlink.com
+    port: 1073
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇸🇬 H1慢 新加坡 01
+    type: ssr
+    server: yd-05.paofunlink.com
+    port: 1090
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇸🇬 H1慢 新加坡 02
+    type: ssr
+    server: yd-05.paofunlink.com
+    port: 1091
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇸🇬 H1慢 新加坡 03
+    type: ssr
+    server: yd-02.paofunlink.com
+    port: 1092
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇸🇬 H1慢 新加坡 04
+    type: ssr
+    server: yd-02.paofunlink.com
+    port: 1093
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇯🇵 H1慢 日本 01
+    type: ssr
+    server: yd-05.paofunlink.com
+    port: 1050
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇯🇵 H1慢 日本 02
+    type: ssr
+    server: yd-05.paofunlink.com
+    port: 1051
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇯🇵 H1慢 日本 03
+    type: ssr
+    server: yd-02.paofunlink.com
+    port: 1052
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇯🇵 H1慢 日本 04
+    type: ssr
+    server: yd-02.paofunlink.com
+    port: 1053
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇺🇸 H1慢 美国 01
+    type: ssr
+    server: yd-05.paofunlink.com
+    port: 1080
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇺🇸 H1慢 美国 02
+    type: ssr
+    server: yd-05.paofunlink.com
+    port: 1081
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇺🇸 H1慢 美国 03
+    type: ssr
+    server: yd-02.paofunlink.com
+    port: 1082
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇺🇸 H1慢 美国 04
+    type: ssr
+    server: yd-02.paofunlink.com
+    port: 1083
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇭🇰 H1慢 香港 01
+    type: ssr
+    server: yd-01.paofunlink.com
+    port: 3950
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇭🇰 H1慢 香港 02
+    type: ssr
+    server: yd-01.paofunlink.com
+    port: 5951
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇭🇰 H1慢 香港 03
+    type: ssr
+    server: yd-01.paofunlink.com
+    port: 5952
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇭🇰 H1慢 香港 04
+    type: ssr
+    server: yd-06.paofunlink.com
+    port: 5953
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇭🇰 H1慢 香港 05
+    type: ssr
+    server: yd-06.paofunlink.com
+    port: 5954
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇭🇰 H1慢 香港 06
+    type: ssr
+    server: yd-06.paofunlink.com
+    port: 5955
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇭🇰 H1慢 香港 07
+    type: ssr
+    server: yd-07.paofunlink.com
+    port: 5956
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇭🇰 H1慢 香港 08
+    type: ssr
+    server: yd-07.paofunlink.com
+    port: 5957
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇨🇳 H2快 台湾 01
+    type: ssr
+    server: yd-03.paofunlink.com
+    port: 1075
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇨🇳 H2快 台湾 02
+    type: ssr
+    server: yd-03.paofunlink.com
+    port: 1076
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇨🇳 H2快 台湾 03
+    type: ssr
+    server: yd-03.paofunlink.com
+    port: 1077
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇨🇳 H2快 台湾 04
+    type: ssr
+    server: yd-03.paofunlink.com
+    port: 1078
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇸🇬 H2快 新加坡 01
+    type: ssr
+    server: yd-03.paofunlink.com
+    port: 1095
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇸🇬 H2快 新加坡 02
+    type: ssr
+    server: yd-03.paofunlink.com
+    port: 1096
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇸🇬 H2快 新加坡 03
+    type: ssr
+    server: yd-03.paofunlink.com
+    port: 1097
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇸🇬 H2快 新加坡 04
+    type: ssr
+    server: yd-03.paofunlink.com
+    port: 1098
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇯🇵 H2快 日本 01
+    type: ssr
+    server: yd-03.paofunlink.com
+    port: 1055
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇯🇵 H2快 日本 02
+    type: ssr
+    server: yd-03.paofunlink.com
+    port: 1056
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇯🇵 H2快 日本 03
+    type: ssr
+    server: yd-03.paofunlink.com
+    port: 1057
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇯🇵 H2快 日本 04
+    type: ssr
+    server: yd-03.paofunlink.com
+    port: 1058
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇺🇸 H2快 美国 01
+    type: ssr
+    server: yd-03.paofunlink.com
+    port: 1085
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇺🇸 H2快 美国 02
+    type: ssr
+    server: yd-03.paofunlink.com
+    port: 1086
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇺🇸 H2快 美国 03
+    type: ssr
+    server: yd-03.paofunlink.com
+    port: 1087
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇺🇸 H2快 美国 04
+    type: ssr
+    server: yd-03.paofunlink.com
+    port: 1088
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇭🇰 H2快 香港 01
+    type: ssr
+    server: yd-04.paofunlink.com
+    port: 5950
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇭🇰 H2快 香港 02
+    type: ssr
+    server: yd-04.paofunlink.com
+    port: 5951
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇭🇰 H2快 香港 03
+    type: ssr
+    server: yd-04.paofunlink.com
+    port: 5952
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇭🇰 H2快 香港 04
+    type: ssr
+    server: yd-04.paofunlink.com
+    port: 5953
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇭🇰 H2快 香港 05
+    type: ssr
+    server: yd-04.paofunlink.com
+    port: 5954
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇭🇰 H2快 香港 06
+    type: ssr
+    server: yd-04.paofunlink.com
+    port: 5955
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇭🇰 H2快 香港 07
+    type: ssr
+    server: yd-04.paofunlink.com
+    port: 5956
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇭🇰 H2快 香港 08
+    type: ssr
+    server: yd-04.paofunlink.com
+    port: 5957
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇭🇰 H2快 香港 09
+    type: ssr
+    server: yd-04.paofunlink.com
+    port: 5958
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: 🇭🇰 H2快 香港 10
+    type: ssr
+    server: yd-04.paofunlink.com
+    port: 5959
+    cipher: chacha20-ietf
+    password: YnhzbnVjcmdrNmhmaXNo/
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 327049:c8_llg_1222ua
+    obfs-param: 06fd7327049.microsoft.com
+  - name: C组 (仅展示，不要选这个)
+    type: ss
+    server: baidu.com
+    port: 443
+    cipher: chacha20-ietf
+    password: A
+  - name: 🇨🇳 台湾 TW C-2 01
+    type: ssr
+    server: 27.152.180.145
+    port: 15501
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇨🇳 台湾 TW C-2 02
+    type: ssr
+    server: 27.152.180.145
+    port: 15502
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇨🇳 台湾 TW C-2 03
+    type: ssr
+    server: 27.152.180.145
+    port: 15503
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇨🇳 台湾 TW C-2 04
+    type: ssr
+    server: 27.152.180.145
+    port: 15504
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇨🇳 台湾 TW C-2 05
+    type: ssr
+    server: 27.152.180.145
+    port: 15505
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇨🇳 台湾 TW C-2 06
+    type: ssr
+    server: 27.152.180.145
+    port: 15506
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇨🇳 台湾 TW C-2 07
+    type: ssr
+    server: 27.152.180.145
+    port: 15507
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇨🇳 台湾 TW C-2 08
+    type: ssr
+    server: 27.152.180.145
+    port: 15508
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇸🇬 新加坡 SG C-2 01
+    type: ssr
+    server: 27.152.180.145
+    port: 15401
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇸🇬 新加坡 SG C-2 02
+    type: ssr
+    server: 27.152.180.145
+    port: 15402
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇸🇬 新加坡 SG C-2 03
+    type: ssr
+    server: 27.152.180.145
+    port: 15403
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇸🇬 新加坡 SG C-2 04
+    type: ssr
+    server: 27.152.180.145
+    port: 15404
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇸🇬 新加坡 SG C-2 05
+    type: ssr
+    server: 27.152.180.145
+    port: 15405
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇸🇬 新加坡 SG C-2 06
+    type: ssr
+    server: 27.152.180.145
+    port: 15406
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇸🇬 新加坡 SG C-2 07
+    type: ssr
+    server: 27.152.180.145
+    port: 15407
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇸🇬 新加坡 SG C-2 08
+    type: ssr
+    server: 27.152.180.145
+    port: 15408
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇸🇬 新加坡 SG C-2 09
+    type: ssr
+    server: 27.152.180.145
+    port: 15409
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇸🇬 新加坡 SG C-2 10
+    type: ssr
+    server: 27.152.180.145
+    port: 15410
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇯🇵 日本 JP C-2 01
+    type: ssr
+    server: 27.152.180.145
+    port: 15201
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇯🇵 日本 JP C-2 02
+    type: ssr
+    server: 27.152.180.145
+    port: 15202
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇯🇵 日本 JP C-2 03
+    type: ssr
+    server: 27.152.180.145
+    port: 15203
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇯🇵 日本 JP C-2 04
+    type: ssr
+    server: 27.152.180.145
+    port: 15204
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇯🇵 日本 JP C-2 05
+    type: ssr
+    server: 27.152.180.145
+    port: 15205
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇯🇵 日本 JP C-2 06
+    type: ssr
+    server: 27.152.180.145
+    port: 15206
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇯🇵 日本 JP C-2 07
+    type: ssr
+    server: 27.152.180.145
+    port: 15207
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇯🇵 日本 JP C-2 08
+    type: ssr
+    server: 27.152.180.145
+    port: 15208
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇺🇸 美国 US C-2 01
+    type: ssr
+    server: 27.152.180.145
+    port: 15101
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇺🇸 美国 US C-2 02
+    type: ssr
+    server: 27.152.180.145
+    port: 15102
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇺🇸 美国 US C-2 03
+    type: ssr
+    server: 27.152.180.145
+    port: 15103
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇺🇸 美国 US C-2 04
+    type: ssr
+    server: 27.152.180.145
+    port: 15104
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇺🇸 美国 US C-2 05
+    type: ssr
+    server: 27.152.180.145
+    port: 15105
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇺🇸 美国 US C-2 06
+    type: ssr
+    server: 27.152.180.145
+    port: 15106
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇺🇸 美国 US C-2 07
+    type: ssr
+    server: 27.152.180.145
+    port: 15107
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇺🇸 美国 US C-2 08
+    type: ssr
+    server: 27.152.180.145
+    port: 15108
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇭🇰 香港 HK C-2 01
+    type: ssr
+    server: 27.152.180.145
+    port: 15001
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇭🇰 香港 HK C-2 02
+    type: ssr
+    server: 27.152.180.145
+    port: 15002
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇭🇰 香港 HK C-2 03
+    type: ssr
+    server: 27.152.180.145
+    port: 15003
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇭🇰 香港 HK C-2 04
+    type: ssr
+    server: 27.152.180.145
+    port: 15004
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇭🇰 香港 HK C-2 05
+    type: ssr
+    server: 27.152.180.145
+    port: 15005
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇭🇰 香港 HK C-2 06
+    type: ssr
+    server: 27.152.180.145
+    port: 15006
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇭🇰 香港 HK C-2 07
+    type: ssr
+    server: 27.152.180.145
+    port: 15007
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇭🇰 香港 HK C-2 08
+    type: ssr
+    server: 27.152.180.145
+    port: 15008
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇭🇰 香港 HK C-2 09
+    type: ssr
+    server: 27.152.180.145
+    port: 15009
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: 🇭🇰 香港 HK C-2 10
+    type: ssr
+    server: 27.152.180.145
+    port: 15010
+    cipher: chacha20-ietf
+    password: "NaikoCloud\x0F"
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 17921:jeKHZJHUOIgAIba7
+    obfs-param: 7fdda17921.microsoft.com
+  - name: Y1组 备用Y1
+    type: ss
+    server: pzfwf.com
+    port: 56099
+    cipher: chacha20-ietf-poly1305
+    password: vT
+  - name: 🇦🇷 [SS] 阿根廷01 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56099
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇦🇷 [SS] 阿根廷02 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56100
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇨🇳 [SS] 台湾01 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56021
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇨🇳 [SS] 台湾02 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56022
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇨🇳 [SS] 台湾03 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56023
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇨🇳 [SS] 台湾04 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56024
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇨🇳 [SS] 台湾05 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56025
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇨🇳 [SS] 台湾06 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56026
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇨🇳 [SS] 台湾07 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56027
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇨🇳 [SS] 台湾08 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56028
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇨🇳 [SS] 台湾09 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56029
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇨🇳 [SS] 台湾10 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56030
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇬🇧 [SS] 英国01 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56061
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇬🇧 [SS] 英国02 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56062
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇬🇧 [SS] 英国03 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56063
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇬🇧 [SS] 英国04 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56064
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇬🇧 [SS] 英国05 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56065
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇭🇰 [SS] 香港01 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56001
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇭🇰 [SS] 香港02 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56002
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇭🇰 [SS] 香港03 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56003
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇭🇰 [SS] 香港04 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56004
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇭🇰 [SS] 香港05 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56005
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇭🇰 [SS] 香港06 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56006
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇭🇰 [SS] 香港07 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56007
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇭🇰 [SS] 香港08 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56008
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇭🇰 [SS] 香港09 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56009
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇭🇰 [SS] 香港10 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56010
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇭🇰 [SS] 香港11 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56011
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇭🇰 [SS] 香港12 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56012
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇭🇰 [SS] 香港13 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56013
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇭🇰 [SS] 香港14 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56014
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇭🇰 [SS] 香港15 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56015
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇭🇰 [SS] 香港16 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56016
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇭🇰 [SS] 香港17 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56017
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇭🇰 [SS] 香港18 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56018
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇭🇰 [SS] 香港19 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56019
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇭🇰 [SS] 香港20 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56020
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇯🇵 [SS] 日本01 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56031
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇯🇵 [SS] 日本02 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56032
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇯🇵 [SS] 日本03 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56033
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇯🇵 [SS] 日本04 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56034
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇯🇵 [SS] 日本05 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56035
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇯🇵 [SS] 日本06 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56036
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇯🇵 [SS] 日本07 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56037
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇯🇵 [SS] 日本08 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56038
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇯🇵 [SS] 日本09 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56039
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇯🇵 [SS] 日本10 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56040
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇲🇾 [SS] 马来西亚01 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56066
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇲🇾 [SS] 马来西亚02 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56067
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇲🇾 [SS] 马来西亚03 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56068
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇲🇾 [SS] 马来西亚04 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56069
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇲🇾 [SS] 马来西亚05 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56070
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇸🇬 [SS] 新加坡01 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56041
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇸🇬 [SS] 新加坡02 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56042
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇸🇬 [SS] 新加坡03 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56043
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇸🇬 [SS] 新加坡04 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56044
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇸🇬 [SS] 新加坡05 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56045
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇸🇬 [SS] 新加坡06 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56046
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇸🇬 [SS] 新加坡07 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56047
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇸🇬 [SS] 新加坡08 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56048
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇸🇬 [SS] 新加坡09 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56049
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇸🇬 [SS] 新加坡10 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56050
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇹🇷 [SS] 土耳其01 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56097
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇹🇷 [SS] 土耳其02 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56098
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇺🇸 [SS] 美国01 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56051
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇺🇸 [SS] 美国02 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56052
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇺🇸 [SS] 美国03 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56053
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇺🇸 [SS] 美国04 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56054
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇺🇸 [SS] 美国05 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56055
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇺🇸 [SS] 美国06 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56056
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇺🇸 [SS] 美国07 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56057
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇺🇸 [SS] 美国08 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56058
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇺🇸 [SS] 美国09 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56059
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+  - name: 🇺🇸 [SS] 美国10 备用Y1
+    type: ss
+    server: fbxt0765gh0pielsss.ftisthebest.com
+    port: 56060
+    cipher: chacha20-ietf-poly1305
+    password: Fly8_C8_1222
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - X组 X
+      - 🇭🇰 香港01-专线 X
+      - 🇭🇰 香港02-专线 X
+      - 🇭🇰 香港03-专线 X
+      - 🇭🇰 香港04-BN-专线 X
+      - 🇭🇰 香港05-HGC-专线 X
+      - 🇭🇰 香港专享T-专线 X
+      - 🇭🇰 香港专享BN-专线 X
+      - 🇭🇰 香港专享HGC-专线 X
+      - 🇯🇵 日本01-ChatGPT专线 X
+      - 🇯🇵 日本02-ChatGPT专线 X
+      - 🇯🇵 日本03-ChatGPT专线 X
+      - 🇯🇵 日本04-Gemini专线 X
+      - 🇯🇵 日本05-Gemini专线 X
+      - 🇨🇳 台湾专享Hinet-专线 X
+      - 🇨🇳 台湾01- 专线 X
+      - 🇨🇳 台湾02- 专线 X
+      - 🇺🇸 美国01-Gemini专线 X
+      - 🇺🇸 美国02-Gemini专线 X
+      - 🇺🇸 美国03-ChatGPT专线 X
+      - 🇺🇸 美国04-ChatGPT专线 X
+      - 🇺🇸 美国05-西雅图家宽禁BT X
+      - 🇺🇸 美国06-纽约家宽禁BT X
+      - 🇸🇬 新加坡专享-专线 X
+      - 🇸🇬 新加坡01-ChatGPT专线 X
+      - 🇸🇬 新加坡02-ChatGPT专线 X
+      - 🇸🇬 新加坡03-ChatGPT专线 X
+      - 🇰🇷 韩国-专线 X
+      - 🇹🇷 土耳其-专线 X
+      - 🇷🇺 俄罗斯-专线 X
+      - 🇦🇺 澳大利亚-专线 X
+      - 🇨🇦 加拿大-专线 X
+      - 🇬🇧 英国-专线 X
+      - 🇩🇪 德国-专线 X
+      - 🇹🇭 泰国-专线 X
+      - 🇿🇦 南非-专线 X
+      - 🇲🇾 马来西亚-专线 X
+      - 🇵🇭 菲律宾-专线 X
+      - 🇻🇳 越南-专线 X
+      - 🇮🇩 印度尼西亚-专线 X
+      - 🇬🇷 希腊-专线 X
+      - 🇮🇹 意大利-专线 X
+      - 🇫🇷 法国-专线 X
+      - 🇧🇷 巴西-专线 X
+      - 🇲🇽 墨西哥-专线 X
+      - 🇪🇸 西班牙-专线 X
+      - 🇦🇷 阿根廷-专线 X
+      - 🇦🇪 迪拜-专线 X
+      - 🇺🇦 乌克兰-专线 X
+      - 🇸🇦 沙特-专线 X
+      - A组 （仅展示，不要选这个) A
+      - 🇨🇳 台湾0101 A
+      - 🇨🇳 台湾0202 A
+      - 🇨🇳 台湾0303 A
+      - 🇨🇳 台湾0404 A
+      - 🇨🇳 台湾0505 A
+      - 🇨🇳 台湾0606 A
+      - 🇭🇰 香港0101 A
+      - 🇭🇰 香港0202 A
+      - 🇭🇰 香港0303 A
+      - 🇭🇰 香港0404 A
+      - 🇭🇰 香港0505 A
+      - 🇭🇰 香港0606 A
+      - 🇭🇰 香港0707 A
+      - 🇭🇰 香港0808 A
+      - 🇭🇰 香港0909 A
+      - 🇭🇰 香港1010 A
+      - 🇯🇵 日本0101 A
+      - 🇯🇵 日本0202 A
+      - 🇯🇵 日本0303 A
+      - 🇯🇵 日本0404 A
+      - 🇯🇵 日本0505 A
+      - 🇯🇵 日本0606 A
+      - 🇯🇵 日本0707 A
+      - 🇯🇵 日本0808 A
+      - 🇯🇵 日本0909 A
+      - 🇯🇵 日本1010 A
+      - 🇸🇬 新加坡0101 A
+      - 🇸🇬 新加坡0202 A
+      - 🇸🇬 新加坡0303 A
+      - 🇸🇬 新加坡0404 A
+      - 🇸🇬 新加坡0505 A
+      - 🇸🇬 新加坡0606 A
+      - 🇸🇬 新加坡0707 A
+      - 🇸🇬 新加坡0808 A
+      - 🇸🇬 新加坡0909 A
+      - 🇸🇬 新加坡1010 A
+      - 🇺🇸 美国0101 A
+      - 🇺🇸 美国0202 A
+      - 🇺🇸 美国0303 A
+      - 🇺🇸 美国0404 A
+      - 🇺🇸 美国0505 A
+      - 🇺🇸 美国0606 A
+      - 🇺🇸 美国0707 A
+      - 🇺🇸 美国0808 A
+      - 🇺🇸 美国0909 A
+      - 🇺🇸 美国1010 A
+      - 🇭🇰 香港 01 U2
+      - 🇭🇰 香港 02 U2
+      - 🇭🇰 香港 03 U2
+      - 🇭🇰 香港 04 U2
+      - 🇨🇳 台湾 01 U2
+      - 🇨🇳 台湾 02 U2
+      - 🇨🇳 台湾 03 U2
+      - 🇨🇳 台湾 04 U2
+      - 🇯🇵 日本 01 U2
+      - 🇯🇵 日本 02 U2
+      - 🇯🇵 日本 03 U2
+      - 🇯🇵 日本 04 U2
+      - 🇺🇸 美国 01 U2
+      - 🇺🇸 美国 02 U2
+      - 🇺🇸 美国 03 U2
+      - 🇺🇸 美国 04 U2
+      - 🇸🇬 新加坡 01 U2
+      - 🇸🇬 新加坡 02 U2
+      - 🇸🇬 新加坡 03 U2
+      - 🇸🇬 新加坡 04 U2
+      - 🇰🇷 KR  01 U2
+      - 🇰🇷 KR  02 U2
+      - 🇨🇦 加拿大 01 U2
+      - 🇨🇦 加拿大 02 U2
+      - 🇬🇧 英国 01 U2
+      - 🇬🇧 英国 02 U2
+      - 🇦🇶 南极洲 01 U2
+      - 🇦🇶 南极洲 02 U2
+      - B组 (仅展示，不要选这个）
+      - 🇨🇳 优质 台湾 B01
+      - 🇨🇳 优质 台湾 B02
+      - 🇨🇳 优质 台湾 B03
+      - 🇨🇳 优质 台湾 B04
+      - 🇸🇬 优质 新加坡 B01
+      - 🇸🇬 优质 新加坡 B02
+      - 🇸🇬 优质 新加坡 B03
+      - 🇸🇬 优质 新加坡 B04
+      - 🇯🇵 优质 日本 B01
+      - 🇯🇵 优质 日本 B02
+      - 🇯🇵 优质 日本 B03
+      - 🇯🇵 优质 日本 B04
+      - 🇯🇵 优质 日本 B05
+      - 🇯🇵 优质 日本 B06
+      - 🇯🇵 优质 日本 B07
+      - 🇯🇵 优质 日本 B08
+      - 🇯🇵 优质 日本 B09
+      - 🇯🇵 优质 日本 B10
+      - 🇺🇸 优质 美国 B01
+      - 🇺🇸 优质 美国 B02
+      - 🇺🇸 优质 美国 B03
+      - 🇺🇸 优质 美国 B04
+      - 🇭🇰 优质 香港 B01
+      - 🇭🇰 优质 香港 B02
+      - 🇭🇰 优质 香港 B03
+      - 🇭🇰 优质 香港 B04
+      - 🇭🇰 优质 香港 B05
+      - 🇭🇰 优质 香港 B06
+      - 🇭🇰 优质 香港 B07
+      - 🇭🇰 优质 香港 B08
+      - 🇭🇰 优质 香港 B09
+      - 🇭🇰 优质 香港 B10
+      - 🇨🇳 普通 台湾 B01
+      - 🇨🇳 普通 台湾 B02
+      - 🇨🇳 普通 台湾 B03
+      - 🇨🇳 普通 台湾 B04
+      - 🇸🇬 普通 新加坡 B01
+      - 🇸🇬 普通 新加坡 B02
+      - 🇸🇬 普通 新加坡 B03
+      - 🇸🇬 普通 新加坡 B04
+      - 🇸🇬 普通 新加坡 B05
+      - 🇸🇬 普通 新加坡 B06
+      - 🇯🇵 普通 日本 B01
+      - 🇯🇵 普通 日本 B02
+      - 🇯🇵 普通 日本 B03
+      - 🇯🇵 普通 日本 B04
+      - 🇯🇵 普通 日本 B05
+      - 🇯🇵 普通 日本 B06
+      - 🇯🇵 普通 日本 B07
+      - 🇯🇵 普通 日本 B08
+      - 🇯🇵 普通 日本 B09
+      - 🇯🇵 普通 日本 B10
+      - 🇺🇸 普通 美国 B01
+      - 🇺🇸 普通 美国 B02
+      - 🇺🇸 普通 美国 B03
+      - 🇺🇸 普通 美国 B04
+      - 🇺🇸 普通 美国 B05
+      - 🇺🇸 普通 美国 B06
+      - 🇭🇰 普通 香港 B01
+      - 🇭🇰 普通 香港 B02
+      - 🇭🇰 普通 香港 B03
+      - 🇭🇰 普通 香港 B04
+      - 🇭🇰 普通 香港 B05
+      - 🇭🇰 普通 香港 B06
+      - 🇭🇰 普通 香港 B07
+      - 🇭🇰 普通 香港 B08
+      - 🇭🇰 普通 香港 B09
+      - 🇭🇰 普通 香港 B10
+      - D组
+      - 🇦🇺 澳大利亚 悉尼   /0/0  F01
+      - 🇦🇺 澳大利亚 悉尼   /0/1  F02
+      - 🇦🇺 澳大利亚 悉尼   /0/2  F03
+      - 🇦🇺 澳大利亚 悉尼   /0/3  F04
+      - 🇦🇺 澳大利亚 悉尼   /0/4  F05
+      - 🇦🇺 澳大利亚 悉尼   /0/5  F06
+      - 🇦🇺 澳大利亚 悉尼   /0/6  F07
+      - 🇦🇺 澳大利亚 悉尼   /0/7  F08
+      - 🇦🇺 澳大利亚 悉尼   /0/8  F09
+      - 🇦🇺 澳大利亚 悉尼   /0/8  F10
+      - 🇨🇦 加拿大 Quebec  /0/23 F01
+      - 🇨🇦 加拿大 Quebec  /0/24  F02
+      - 🇨🇦 加拿大 Quebec  /0/25  F03
+      - 🇨🇦 加拿大 Quebec  /0/26 F04
+      - 🇨🇦 加拿大 Quebec  /0/27  F05
+      - 🇨🇦 加拿大 Quebec  /0/28  F06
+      - 🇨🇦 加拿大 Quebec  /0/29 DELLR6525 F07
+      - 🇨🇦 加拿大 Quebec  /0/30  F08
+      - 🇨🇦 加拿大 Quebec  /0/31  F09
+      - 🇨🇦 加拿大 Quebec  /0/32  F10
+      - 🇫🇷 法国  /0/10  F08
+      - 🇫🇷 法国  /0/11  F09
+      - 🇫🇷 法国  /0/12  F10
+      - 🇫🇷 法国  /0/3  F01
+      - 🇫🇷 法国  /0/4  F02
+      - 🇫🇷 法国  /0/5  F03
+      - 🇫🇷 法国  /0/6  F04
+      - 🇫🇷 法国  /0/7  F05
+      - 🇫🇷 法国  /0/8  F06
+      - 🇫🇷 法国  /0/9  F07
+      - 🇩🇪 德国 Hessen Limburg an der Lahn /0/10  F02
+      - 🇩🇪 德国 Hessen Limburg an der Lahn /0/11  F03
+      - 🇩🇪 德国 Hessen Limburg an der Lahn /0/12  F04
+      - 🇩🇪 德国 Hessen Limburg an der Lahn /0/13  F05
+      - 🇩🇪 德国 Hessen Limburg an der Lahn /0/14  F06
+      - 🇩🇪 德国 Hessen Limburg an der Lahn /0/15  F07
+      - 🇩🇪 德国 Hessen Limburg an der Lahn /0/16  F08
+      - 🇩🇪 德国 Hessen Limburg an der Lahn /0/17  F09
+      - 🇩🇪 德国 Hessen Limburg an der Lahn /0/18  F10
+      - 🇩🇪 德国 Hessen Limburg an der Lahn /0/9  F01
+      - 🇭🇰 香港 柴湾  /0/23  F39
+      - 🇭🇰 香港 柴湾  /0/27  F40
+      - 🇭🇰 香港 柴湾  /0/0  F31
+      - 🇭🇰 香港 柴湾  /0/1  F32
+      - 🇭🇰 香港 柴湾  /0/2  F33
+      - 🇭🇰 香港 柴湾  /0/3  F34
+      - 🇭🇰 香港 柴湾  /0/4  F35
+      - 🇭🇰 香港 柴湾  /0/5  F36
+      - 🇭🇰 香港 柴湾  /0/6  F37
+      - 🇭🇰 香港 柴湾  /0/7  F38
+      - 🇭🇰 香港 Sha Tin 4 /0/13  F21
+      - 🇭🇰 香港 Sha Tin 4 /0/14  F22
+      - 🇭🇰 香港 Sha Tin 4 /0/15  F23
+      - 🇭🇰 香港 Sha Tin 4 /0/16  F24
+      - 🇭🇰 香港 Sha Tin 4 /0/17  F25
+      - 🇭🇰 香港 Sha Tin 4 /0/18  F26
+      - 🇭🇰 香港 Sha Tin 4 /0/19  F27
+      - 🇭🇰 香港 Sha Tin 4 /0/20  F28
+      - 🇭🇰 香港 Sha Tin 4 /0/21  F29
+      - 🇭🇰 香港 Sha Tin 4 /0/22  F30
+      - 🇭🇰 香港 Sha Tin 4 /0/0  F05
+      - 🇭🇰 香港 Sha Tin 4 /0/1  F06
+      - 🇭🇰 香港 Sha Tin 4 /0/2  F07
+      - 🇭🇰 香港 Sha Tin 4 /0/3  F08
+      - 🇭🇰 香港 Sha Tin 4 /0/4  F09
+      - 🇭🇰 香港 Sha Tin 4 /0/5  F10
+      - 🇭🇰 香港 Sha Tin 4 /0/6  F11
+      - 🇭🇰 香港 Sha Tin 4 /0/7  F12
+      - 🇭🇰 香港 Tsuen Wan 1 /0/0   F01
+      - 🇭🇰 香港 Tsuen Wan 1 /0/1  F02
+      - 🇭🇰 香港 Tsuen Wan 1 /0/2  F03
+      - 🇭🇰 香港 Tsuen Wan 1 /0/3  F04
+      - 🇭🇰 香港 Tsuen Wan 1 /0/10  F13
+      - 🇭🇰 香港 Tsuen Wan 1 /0/11  F14
+      - 🇭🇰 香港 Tsuen Wan 1 /0/12  F15
+      - 🇭🇰 香港 Tsuen Wan 1 /0/13  F16
+      - 🇭🇰 香港 Tsuen Wan 1 /0/14  F17
+      - 🇭🇰 香港 Tsuen Wan 1 /0/15  F18
+      - 🇭🇰 香港 Tsuen Wan 1 /0/16  F19
+      - 🇭🇰 香港 Tsuen Wan 1 /0/17  F20
+      - 🇮🇳 印度 孟买 Andheri East EQMB1 /0/0  F01
+      - 🇮🇳 印度 孟买 Andheri East EQMB1 /0/1  F02
+      - 🇮🇳 印度 孟买 Andheri East EQMB1 /0/2  F03
+      - 🇮🇳 印度 孟买 Andheri East EQMB1 /0/3  F04
+      - 🇮🇳 印度 孟买 Andheri East EQMB1 /0/4  F05
+      - 🇯🇵 日本 Osaka Nishi Ward EQOS1 /0/10  F19
+      - 🇯🇵 日本 Osaka Nishi Ward EQOS1 /0/15  F20
+      - 🇯🇵 日本 Osaka Nishi Ward EQOS1 /0/0  F15
+      - 🇯🇵 日本 Osaka Nishi Ward EQOS1 /0/1  F16
+      - 🇯🇵 日本 Osaka Nishi Ward EQOS1 /0/2  F17
+      - 🇯🇵 日本 Osaka Nishi Ward EQOS1 /0/3  F18
+      - 🇯🇵 日本 东京 品川 EQTY8 /0/0  F09
+      - 🇯🇵 日本 东京 品川 EQTY8 /0/1  F10
+      - 🇯🇵 日本 东京 品川 EQTY8 /0/2  F11
+      - 🇯🇵 日本 东京 品川 EQTY8 /0/3  F12
+      - 🇯🇵 日本 东京 品川 EQTY8 /0/4  F13
+      - 🇯🇵 日本 东京 品川 EQTY8 /0/5  F14
+      - 🇯🇵 日本 东京 Ōta City  /0/0  F01
+      - 🇯🇵 日本 东京 Ōta City  /0/1  F02
+      - 🇯🇵 日本 东京 Ōta City  /0/2  F03
+      - 🇯🇵 日本 东京 Ōta City  /0/3  F04
+      - 🇯🇵 日本 东京 Ōta City  /0/0  F05
+      - 🇯🇵 日本 东京 Ōta City  /0/1  F06
+      - 🇯🇵 日本 东京 Ōta City  /0/2  F07
+      - 🇯🇵 日本 东京 Ōta City  /0/3  F08
+      - 🇷🇺 俄罗斯 莫斯科 район Западное Дегунино  Дата-центр NORD /0/2  F03
+      - 🇷🇺 俄罗斯 莫斯科 район Западное Дегунино  Дата-центр NORD /0/3  F04
+      - 🇷🇺 俄罗斯 莫斯科 район Западное Дегунино  Дата-центр NORD /0/4  F05
+      - 🇷🇺 俄罗斯 莫斯科 район Западное Дегунино  Дата-центр NORD /0/0  F01
+      - 🇷🇺 俄罗斯 莫斯科 район Западное Дегунино  Дата-центр NORD /0/1  F02
+      - 🇸🇬 新加坡 Central Queenstown  /0/0  F01
+      - 🇸🇬 新加坡 Central Queenstown  /0/1  F02
+      - 🇸🇬 新加坡 Central Queenstown  /0/2  F03
+      - 🇸🇬 新加坡 Central Queenstown  /0/3  F04
+      - 🇸🇬 新加坡 Central Queenstown  /0/4  F05
+      - 🇸🇬 新加坡 Central Queenstown  /0/5  F06
+      - 🇸🇬 新加坡 Central Queenstown  /0/6  F07
+      - 🇸🇬 新加坡 Central Queenstown  /0/7  F08
+      - 🇸🇬 新加坡 Central Queenstown  /0/8  F09
+      - 🇸🇬 新加坡 Central Queenstown  /0/9  F10
+      - 🇰🇷 韩国 首尔 Mapo-gu 1 /0/0  F01
+      - 🇰🇷 韩国 首尔 Mapo-gu 1 /0/1  F02
+      - 🇰🇷 韩国 首尔 Mapo-gu 1 /0/2  F03
+      - 🇰🇷 韩国 首尔 Mapo-gu 1 /0/3  F04
+      - 🇰🇷 韩国 首尔 Mapo-gu 1 /0/4  F05
+      - 🇰🇷 韩国 首尔 Mapo-gu 1 /0/5  F06
+      - 🇰🇷 韩国 首尔 Mapo-gu 1 /0/6  F07
+      - 🇰🇷 韩国 首尔 Mapo-gu 1 /0/7  F08
+      - 🇰🇷 韩国 首尔 Mapo-gu 1 /0/8  F09
+      - 🇰🇷 韩国 首尔 Mapo-gu 1 /0/9  F10
+      - 🇨🇳 台湾 Hsinchu Zhubei /0/0 DL360G10 F17
+      - 🇨🇳 台湾 Hsinchu Zhubei /0/1 DL360G10 F18
+      - 🇨🇳 台湾 Hsinchu Zhubei /0/2 DL360G10 F19
+      - 🇨🇳 台湾 Hsinchu Zhubei /0/3 DL360G10 F20
+      - 🇨🇳 台湾 New Taipei  /0/0  F01
+      - 🇨🇳 台湾 New Taipei  /0/1  F02
+      - 🇨🇳 台湾 New Taipei  /0/2  F03
+      - 🇨🇳 台湾 New Taipei  /0/3  F04
+      - 🇨🇳 台湾 Taipei Xinyi /0/0  F05
+      - 🇨🇳 台湾 Taipei Xinyi /0/1  F06
+      - 🇨🇳 台湾 Taipei Xinyi /0/2 DELLC6520#1 F07
+      - 🇨🇳 台湾 Taipei Xinyi /0/3 DELLC6520#2 F08
+      - 🇨🇳 台湾 Taipei Xinyi /0/4 DELLC6520#3 F09
+      - 🇨🇳 台湾 Taipei Xinyi /0/5 DELLC6520#4 F10
+      - 🇨🇳 台湾 Zhongli Renmei /0/0 DL360G11 F11
+      - 🇨🇳 台湾 Zhongli Renmei /0/1 DL360G11 F12
+      - 🇨🇳 台湾 Zhongli Renmei /0/2 DL360G11 F13
+      - 🇨🇳 台湾 Zhongli Renmei /0/3 DL360G11 F14
+      - 🇨🇳 台湾 Zhongli Renmei /0/4 DL360G11 F15
+      - 🇨🇳 台湾 Zhongli Renmei /0/5 DL360G11 F16
+      - 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/10  F01
+      - 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/11  F02
+      - 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/12  F03
+      - 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/13  F04
+      - 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/14  F05
+      - 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/15  F06
+      - 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/16  F07
+      - 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/2  F08
+      - 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/3  F09
+      - 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/4  F10
+      - 🇺🇸 美国 华盛顿 西雅图  /0/0  F01
+      - 🇺🇸 美国 华盛顿 西雅图  /0/1  F02
+      - 🇺🇸 美国 华盛顿 西雅图  /0/2  F03
+      - 🇺🇸 美国 华盛顿 西雅图  /0/3  F04
+      - 🇺🇸 美国 华盛顿 西雅图  /0/4  F05
+      - 🇺🇸 美国 华盛顿 西雅图  /0/5  F06
+      - 🇺🇸 美国 华盛顿 西雅图  /0/6  F07
+      - 🇺🇸 美国 华盛顿 西雅图  /0/7  F08
+      - 🇺🇸 美国 华盛顿 西雅图  /0/8  F09
+      - 🇺🇸 美国 华盛顿 西雅图  /0/9  F10
+      - 🇦🇶 南极 /0/27 DELLXR5610 F01
+      - 🇰🇵 朝鲜平壤 /0/10 HuaweiRH1288V3 F01
+      - 🇲🇴 澳门 /0/2  F01
+      - 🇭🇰 香港高级  01
+      - 🇭🇰 香港高级  02
+      - 🇭🇰 香港高级  03
+      - 🇭🇰 香港高级  04
+      - 🇭🇰 香港高级  05
+      - 🇭🇰 香港高级  06
+      - H组(仅展示，不要选这个)
+      - 🇨🇳 H1慢 台湾 01
+      - 🇨🇳 H1慢 台湾 02
+      - 🇨🇳 H1慢 台湾 03
+      - 🇨🇳 H1慢 台湾 04
+      - 🇸🇬 H1慢 新加坡 01
+      - 🇸🇬 H1慢 新加坡 02
+      - 🇸🇬 H1慢 新加坡 03
+      - 🇸🇬 H1慢 新加坡 04
+      - 🇯🇵 H1慢 日本 01
+      - 🇯🇵 H1慢 日本 02
+      - 🇯🇵 H1慢 日本 03
+      - 🇯🇵 H1慢 日本 04
+      - 🇺🇸 H1慢 美国 01
+      - 🇺🇸 H1慢 美国 02
+      - 🇺🇸 H1慢 美国 03
+      - 🇺🇸 H1慢 美国 04
+      - 🇭🇰 H1慢 香港 01
+      - 🇭🇰 H1慢 香港 02
+      - 🇭🇰 H1慢 香港 03
+      - 🇭🇰 H1慢 香港 04
+      - 🇭🇰 H1慢 香港 05
+      - 🇭🇰 H1慢 香港 06
+      - 🇭🇰 H1慢 香港 07
+      - 🇭🇰 H1慢 香港 08
+      - 🇨🇳 H2快 台湾 01
+      - 🇨🇳 H2快 台湾 02
+      - 🇨🇳 H2快 台湾 03
+      - 🇨🇳 H2快 台湾 04
+      - 🇸🇬 H2快 新加坡 01
+      - 🇸🇬 H2快 新加坡 02
+      - 🇸🇬 H2快 新加坡 03
+      - 🇸🇬 H2快 新加坡 04
+      - 🇯🇵 H2快 日本 01
+      - 🇯🇵 H2快 日本 02
+      - 🇯🇵 H2快 日本 03
+      - 🇯🇵 H2快 日本 04
+      - 🇺🇸 H2快 美国 01
+      - 🇺🇸 H2快 美国 02
+      - 🇺🇸 H2快 美国 03
+      - 🇺🇸 H2快 美国 04
+      - 🇭🇰 H2快 香港 01
+      - 🇭🇰 H2快 香港 02
+      - 🇭🇰 H2快 香港 03
+      - 🇭🇰 H2快 香港 04
+      - 🇭🇰 H2快 香港 05
+      - 🇭🇰 H2快 香港 06
+      - 🇭🇰 H2快 香港 07
+      - 🇭🇰 H2快 香港 08
+      - 🇭🇰 H2快 香港 09
+      - 🇭🇰 H2快 香港 10
+      - C组 (仅展示，不要选这个)
+      - 🇨🇳 台湾 TW C-2 01
+      - 🇨🇳 台湾 TW C-2 02
+      - 🇨🇳 台湾 TW C-2 03
+      - 🇨🇳 台湾 TW C-2 04
+      - 🇨🇳 台湾 TW C-2 05
+      - 🇨🇳 台湾 TW C-2 06
+      - 🇨🇳 台湾 TW C-2 07
+      - 🇨🇳 台湾 TW C-2 08
+      - 🇸🇬 新加坡 SG C-2 01
+      - 🇸🇬 新加坡 SG C-2 02
+      - 🇸🇬 新加坡 SG C-2 03
+      - 🇸🇬 新加坡 SG C-2 04
+      - 🇸🇬 新加坡 SG C-2 05
+      - 🇸🇬 新加坡 SG C-2 06
+      - 🇸🇬 新加坡 SG C-2 07
+      - 🇸🇬 新加坡 SG C-2 08
+      - 🇸🇬 新加坡 SG C-2 09
+      - 🇸🇬 新加坡 SG C-2 10
+      - 🇯🇵 日本 JP C-2 01
+      - 🇯🇵 日本 JP C-2 02
+      - 🇯🇵 日本 JP C-2 03
+      - 🇯🇵 日本 JP C-2 04
+      - 🇯🇵 日本 JP C-2 05
+      - 🇯🇵 日本 JP C-2 06
+      - 🇯🇵 日本 JP C-2 07
+      - 🇯🇵 日本 JP C-2 08
+      - 🇺🇸 美国 US C-2 01
+      - 🇺🇸 美国 US C-2 02
+      - 🇺🇸 美国 US C-2 03
+      - 🇺🇸 美国 US C-2 04
+      - 🇺🇸 美国 US C-2 05
+      - 🇺🇸 美国 US C-2 06
+      - 🇺🇸 美国 US C-2 07
+      - 🇺🇸 美国 US C-2 08
+      - 🇭🇰 香港 HK C-2 01
+      - 🇭🇰 香港 HK C-2 02
+      - 🇭🇰 香港 HK C-2 03
+      - 🇭🇰 香港 HK C-2 04
+      - 🇭🇰 香港 HK C-2 05
+      - 🇭🇰 香港 HK C-2 06
+      - 🇭🇰 香港 HK C-2 07
+      - 🇭🇰 香港 HK C-2 08
+      - 🇭🇰 香港 HK C-2 09
+      - 🇭🇰 香港 HK C-2 10
+      - Y1组 备用Y1
+      - 🇦🇷 [SS] 阿根廷01 备用Y1
+      - 🇦🇷 [SS] 阿根廷02 备用Y1
+      - 🇨🇳 [SS] 台湾01 备用Y1
+      - 🇨🇳 [SS] 台湾02 备用Y1
+      - 🇨🇳 [SS] 台湾03 备用Y1
+      - 🇨🇳 [SS] 台湾04 备用Y1
+      - 🇨🇳 [SS] 台湾05 备用Y1
+      - 🇨🇳 [SS] 台湾06 备用Y1
+      - 🇨🇳 [SS] 台湾07 备用Y1
+      - 🇨🇳 [SS] 台湾08 备用Y1
+      - 🇨🇳 [SS] 台湾09 备用Y1
+      - 🇨🇳 [SS] 台湾10 备用Y1
+      - 🇬🇧 [SS] 英国01 备用Y1
+      - 🇬🇧 [SS] 英国02 备用Y1
+      - 🇬🇧 [SS] 英国03 备用Y1
+      - 🇬🇧 [SS] 英国04 备用Y1
+      - 🇬🇧 [SS] 英国05 备用Y1
+      - 🇭🇰 [SS] 香港01 备用Y1
+      - 🇭🇰 [SS] 香港02 备用Y1
+      - 🇭🇰 [SS] 香港03 备用Y1
+      - 🇭🇰 [SS] 香港04 备用Y1
+      - 🇭🇰 [SS] 香港05 备用Y1
+      - 🇭🇰 [SS] 香港06 备用Y1
+      - 🇭🇰 [SS] 香港07 备用Y1
+      - 🇭🇰 [SS] 香港08 备用Y1
+      - 🇭🇰 [SS] 香港09 备用Y1
+      - 🇭🇰 [SS] 香港10 备用Y1
+      - 🇭🇰 [SS] 香港11 备用Y1
+      - 🇭🇰 [SS] 香港12 备用Y1
+      - 🇭🇰 [SS] 香港13 备用Y1
+      - 🇭🇰 [SS] 香港14 备用Y1
+      - 🇭🇰 [SS] 香港15 备用Y1
+      - 🇭🇰 [SS] 香港16 备用Y1
+      - 🇭🇰 [SS] 香港17 备用Y1
+      - 🇭🇰 [SS] 香港18 备用Y1
+      - 🇭🇰 [SS] 香港19 备用Y1
+      - 🇭🇰 [SS] 香港20 备用Y1
+      - 🇯🇵 [SS] 日本01 备用Y1
+      - 🇯🇵 [SS] 日本02 备用Y1
+      - 🇯🇵 [SS] 日本03 备用Y1
+      - 🇯🇵 [SS] 日本04 备用Y1
+      - 🇯🇵 [SS] 日本05 备用Y1
+      - 🇯🇵 [SS] 日本06 备用Y1
+      - 🇯🇵 [SS] 日本07 备用Y1
+      - 🇯🇵 [SS] 日本08 备用Y1
+      - 🇯🇵 [SS] 日本09 备用Y1
+      - 🇯🇵 [SS] 日本10 备用Y1
+      - 🇲🇾 [SS] 马来西亚01 备用Y1
+      - 🇲🇾 [SS] 马来西亚02 备用Y1
+      - 🇲🇾 [SS] 马来西亚03 备用Y1
+      - 🇲🇾 [SS] 马来西亚04 备用Y1
+      - 🇲🇾 [SS] 马来西亚05 备用Y1
+      - 🇸🇬 [SS] 新加坡01 备用Y1
+      - 🇸🇬 [SS] 新加坡02 备用Y1
+      - 🇸🇬 [SS] 新加坡03 备用Y1
+      - 🇸🇬 [SS] 新加坡04 备用Y1
+      - 🇸🇬 [SS] 新加坡05 备用Y1
+      - 🇸🇬 [SS] 新加坡06 备用Y1
+      - 🇸🇬 [SS] 新加坡07 备用Y1
+      - 🇸🇬 [SS] 新加坡08 备用Y1
+      - 🇸🇬 [SS] 新加坡09 备用Y1
+      - 🇸🇬 [SS] 新加坡10 备用Y1
+      - 🇹🇷 [SS] 土耳其01 备用Y1
+      - 🇹🇷 [SS] 土耳其02 备用Y1
+      - 🇺🇸 [SS] 美国01 备用Y1
+      - 🇺🇸 [SS] 美国02 备用Y1
+      - 🇺🇸 [SS] 美国03 备用Y1
+      - 🇺🇸 [SS] 美国04 备用Y1
+      - 🇺🇸 [SS] 美国05 备用Y1
+      - 🇺🇸 [SS] 美国06 备用Y1
+      - 🇺🇸 [SS] 美国07 备用Y1
+      - 🇺🇸 [SS] 美国08 备用Y1
+      - 🇺🇸 [SS] 美国09 备用Y1
+      - 🇺🇸 [SS] 美国10 备用Y1
+  - name: ♻️ 自动选择
+    type: url-test
+    proxies:
+      - X组 X
+      - 🇭🇰 香港01-专线 X
+      - 🇭🇰 香港02-专线 X
+      - 🇭🇰 香港03-专线 X
+      - 🇭🇰 香港04-BN-专线 X
+      - 🇭🇰 香港05-HGC-专线 X
+      - 🇭🇰 香港专享T-专线 X
+      - 🇭🇰 香港专享BN-专线 X
+      - 🇭🇰 香港专享HGC-专线 X
+      - 🇯🇵 日本01-ChatGPT专线 X
+      - 🇯🇵 日本02-ChatGPT专线 X
+      - 🇯🇵 日本03-ChatGPT专线 X
+      - 🇯🇵 日本04-Gemini专线 X
+      - 🇯🇵 日本05-Gemini专线 X
+      - 🇨🇳 台湾专享Hinet-专线 X
+      - 🇨🇳 台湾01- 专线 X
+      - 🇨🇳 台湾02- 专线 X
+      - 🇺🇸 美国01-Gemini专线 X
+      - 🇺🇸 美国02-Gemini专线 X
+      - 🇺🇸 美国03-ChatGPT专线 X
+      - 🇺🇸 美国04-ChatGPT专线 X
+      - 🇺🇸 美国05-西雅图家宽禁BT X
+      - 🇺🇸 美国06-纽约家宽禁BT X
+      - 🇸🇬 新加坡专享-专线 X
+      - 🇸🇬 新加坡01-ChatGPT专线 X
+      - 🇸🇬 新加坡02-ChatGPT专线 X
+      - 🇸🇬 新加坡03-ChatGPT专线 X
+      - 🇰🇷 韩国-专线 X
+      - 🇹🇷 土耳其-专线 X
+      - 🇷🇺 俄罗斯-专线 X
+      - 🇦🇺 澳大利亚-专线 X
+      - 🇨🇦 加拿大-专线 X
+      - 🇬🇧 英国-专线 X
+      - 🇩🇪 德国-专线 X
+      - 🇹🇭 泰国-专线 X
+      - 🇿🇦 南非-专线 X
+      - 🇲🇾 马来西亚-专线 X
+      - 🇵🇭 菲律宾-专线 X
+      - 🇻🇳 越南-专线 X
+      - 🇮🇩 印度尼西亚-专线 X
+      - 🇬🇷 希腊-专线 X
+      - 🇮🇹 意大利-专线 X
+      - 🇫🇷 法国-专线 X
+      - 🇧🇷 巴西-专线 X
+      - 🇲🇽 墨西哥-专线 X
+      - 🇪🇸 西班牙-专线 X
+      - 🇦🇷 阿根廷-专线 X
+      - 🇦🇪 迪拜-专线 X
+      - 🇺🇦 乌克兰-专线 X
+      - 🇸🇦 沙特-专线 X
+      - A组 （仅展示，不要选这个) A
+      - 🇨🇳 台湾0101 A
+      - 🇨🇳 台湾0202 A
+      - 🇨🇳 台湾0303 A
+      - 🇨🇳 台湾0404 A
+      - 🇨🇳 台湾0505 A
+      - 🇨🇳 台湾0606 A
+      - 🇭🇰 香港0101 A
+      - 🇭🇰 香港0202 A
+      - 🇭🇰 香港0303 A
+      - 🇭🇰 香港0404 A
+      - 🇭🇰 香港0505 A
+      - 🇭🇰 香港0606 A
+      - 🇭🇰 香港0707 A
+      - 🇭🇰 香港0808 A
+      - 🇭🇰 香港0909 A
+      - 🇭🇰 香港1010 A
+      - 🇯🇵 日本0101 A
+      - 🇯🇵 日本0202 A
+      - 🇯🇵 日本0303 A
+      - 🇯🇵 日本0404 A
+      - 🇯🇵 日本0505 A
+      - 🇯🇵 日本0606 A
+      - 🇯🇵 日本0707 A
+      - 🇯🇵 日本0808 A
+      - 🇯🇵 日本0909 A
+      - 🇯🇵 日本1010 A
+      - 🇸🇬 新加坡0101 A
+      - 🇸🇬 新加坡0202 A
+      - 🇸🇬 新加坡0303 A
+      - 🇸🇬 新加坡0404 A
+      - 🇸🇬 新加坡0505 A
+      - 🇸🇬 新加坡0606 A
+      - 🇸🇬 新加坡0707 A
+      - 🇸🇬 新加坡0808 A
+      - 🇸🇬 新加坡0909 A
+      - 🇸🇬 新加坡1010 A
+      - 🇺🇸 美国0101 A
+      - 🇺🇸 美国0202 A
+      - 🇺🇸 美国0303 A
+      - 🇺🇸 美国0404 A
+      - 🇺🇸 美国0505 A
+      - 🇺🇸 美国0606 A
+      - 🇺🇸 美国0707 A
+      - 🇺🇸 美国0808 A
+      - 🇺🇸 美国0909 A
+      - 🇺🇸 美国1010 A
+      - 🇭🇰 香港 01 U2
+      - 🇭🇰 香港 02 U2
+      - 🇭🇰 香港 03 U2
+      - 🇭🇰 香港 04 U2
+      - 🇨🇳 台湾 01 U2
+      - 🇨🇳 台湾 02 U2
+      - 🇨🇳 台湾 03 U2
+      - 🇨🇳 台湾 04 U2
+      - 🇯🇵 日本 01 U2
+      - 🇯🇵 日本 02 U2
+      - 🇯🇵 日本 03 U2
+      - 🇯🇵 日本 04 U2
+      - 🇺🇸 美国 01 U2
+      - 🇺🇸 美国 02 U2
+      - 🇺🇸 美国 03 U2
+      - 🇺🇸 美国 04 U2
+      - 🇸🇬 新加坡 01 U2
+      - 🇸🇬 新加坡 02 U2
+      - 🇸🇬 新加坡 03 U2
+      - 🇸🇬 新加坡 04 U2
+      - 🇰🇷 KR  01 U2
+      - 🇰🇷 KR  02 U2
+      - 🇨🇦 加拿大 01 U2
+      - 🇨🇦 加拿大 02 U2
+      - 🇬🇧 英国 01 U2
+      - 🇬🇧 英国 02 U2
+      - 🇦🇶 南极洲 01 U2
+      - 🇦🇶 南极洲 02 U2
+      - B组 (仅展示，不要选这个）
+      - 🇨🇳 优质 台湾 B01
+      - 🇨🇳 优质 台湾 B02
+      - 🇨🇳 优质 台湾 B03
+      - 🇨🇳 优质 台湾 B04
+      - 🇸🇬 优质 新加坡 B01
+      - 🇸🇬 优质 新加坡 B02
+      - 🇸🇬 优质 新加坡 B03
+      - 🇸🇬 优质 新加坡 B04
+      - 🇯🇵 优质 日本 B01
+      - 🇯🇵 优质 日本 B02
+      - 🇯🇵 优质 日本 B03
+      - 🇯🇵 优质 日本 B04
+      - 🇯🇵 优质 日本 B05
+      - 🇯🇵 优质 日本 B06
+      - 🇯🇵 优质 日本 B07
+      - 🇯🇵 优质 日本 B08
+      - 🇯🇵 优质 日本 B09
+      - 🇯🇵 优质 日本 B10
+      - 🇺🇸 优质 美国 B01
+      - 🇺🇸 优质 美国 B02
+      - 🇺🇸 优质 美国 B03
+      - 🇺🇸 优质 美国 B04
+      - 🇭🇰 优质 香港 B01
+      - 🇭🇰 优质 香港 B02
+      - 🇭🇰 优质 香港 B03
+      - 🇭🇰 优质 香港 B04
+      - 🇭🇰 优质 香港 B05
+      - 🇭🇰 优质 香港 B06
+      - 🇭🇰 优质 香港 B07
+      - 🇭🇰 优质 香港 B08
+      - 🇭🇰 优质 香港 B09
+      - 🇭🇰 优质 香港 B10
+      - 🇨🇳 普通 台湾 B01
+      - 🇨🇳 普通 台湾 B02
+      - 🇨🇳 普通 台湾 B03
+      - 🇨🇳 普通 台湾 B04
+      - 🇸🇬 普通 新加坡 B01
+      - 🇸🇬 普通 新加坡 B02
+      - 🇸🇬 普通 新加坡 B03
+      - 🇸🇬 普通 新加坡 B04
+      - 🇸🇬 普通 新加坡 B05
+      - 🇸🇬 普通 新加坡 B06
+      - 🇯🇵 普通 日本 B01
+      - 🇯🇵 普通 日本 B02
+      - 🇯🇵 普通 日本 B03
+      - 🇯🇵 普通 日本 B04
+      - 🇯🇵 普通 日本 B05
+      - 🇯🇵 普通 日本 B06
+      - 🇯🇵 普通 日本 B07
+      - 🇯🇵 普通 日本 B08
+      - 🇯🇵 普通 日本 B09
+      - 🇯🇵 普通 日本 B10
+      - 🇺🇸 普通 美国 B01
+      - 🇺🇸 普通 美国 B02
+      - 🇺🇸 普通 美国 B03
+      - 🇺🇸 普通 美国 B04
+      - 🇺🇸 普通 美国 B05
+      - 🇺🇸 普通 美国 B06
+      - 🇭🇰 普通 香港 B01
+      - 🇭🇰 普通 香港 B02
+      - 🇭🇰 普通 香港 B03
+      - 🇭🇰 普通 香港 B04
+      - 🇭🇰 普通 香港 B05
+      - 🇭🇰 普通 香港 B06
+      - 🇭🇰 普通 香港 B07
+      - 🇭🇰 普通 香港 B08
+      - 🇭🇰 普通 香港 B09
+      - 🇭🇰 普通 香港 B10
+      - D组
+      - 🇦🇺 澳大利亚 悉尼   /0/0  F01
+      - 🇦🇺 澳大利亚 悉尼   /0/1  F02
+      - 🇦🇺 澳大利亚 悉尼   /0/2  F03
+      - 🇦🇺 澳大利亚 悉尼   /0/3  F04
+      - 🇦🇺 澳大利亚 悉尼   /0/4  F05
+      - 🇦🇺 澳大利亚 悉尼   /0/5  F06
+      - 🇦🇺 澳大利亚 悉尼   /0/6  F07
+      - 🇦🇺 澳大利亚 悉尼   /0/7  F08
+      - 🇦🇺 澳大利亚 悉尼   /0/8  F09
+      - 🇦🇺 澳大利亚 悉尼   /0/8  F10
+      - 🇨🇦 加拿大 Quebec  /0/23 F01
+      - 🇨🇦 加拿大 Quebec  /0/24  F02
+      - 🇨🇦 加拿大 Quebec  /0/25  F03
+      - 🇨🇦 加拿大 Quebec  /0/26 F04
+      - 🇨🇦 加拿大 Quebec  /0/27  F05
+      - 🇨🇦 加拿大 Quebec  /0/28  F06
+      - 🇨🇦 加拿大 Quebec  /0/29 DELLR6525 F07
+      - 🇨🇦 加拿大 Quebec  /0/30  F08
+      - 🇨🇦 加拿大 Quebec  /0/31  F09
+      - 🇨🇦 加拿大 Quebec  /0/32  F10
+      - 🇫🇷 法国  /0/10  F08
+      - 🇫🇷 法国  /0/11  F09
+      - 🇫🇷 法国  /0/12  F10
+      - 🇫🇷 法国  /0/3  F01
+      - 🇫🇷 法国  /0/4  F02
+      - 🇫🇷 法国  /0/5  F03
+      - 🇫🇷 法国  /0/6  F04
+      - 🇫🇷 法国  /0/7  F05
+      - 🇫🇷 法国  /0/8  F06
+      - 🇫🇷 法国  /0/9  F07
+      - 🇩🇪 德国 Hessen Limburg an der Lahn /0/10  F02
+      - 🇩🇪 德国 Hessen Limburg an der Lahn /0/11  F03
+      - 🇩🇪 德国 Hessen Limburg an der Lahn /0/12  F04
+      - 🇩🇪 德国 Hessen Limburg an der Lahn /0/13  F05
+      - 🇩🇪 德国 Hessen Limburg an der Lahn /0/14  F06
+      - 🇩🇪 德国 Hessen Limburg an der Lahn /0/15  F07
+      - 🇩🇪 德国 Hessen Limburg an der Lahn /0/16  F08
+      - 🇩🇪 德国 Hessen Limburg an der Lahn /0/17  F09
+      - 🇩🇪 德国 Hessen Limburg an der Lahn /0/18  F10
+      - 🇩🇪 德国 Hessen Limburg an der Lahn /0/9  F01
+      - 🇭🇰 香港 柴湾  /0/23  F39
+      - 🇭🇰 香港 柴湾  /0/27  F40
+      - 🇭🇰 香港 柴湾  /0/0  F31
+      - 🇭🇰 香港 柴湾  /0/1  F32
+      - 🇭🇰 香港 柴湾  /0/2  F33
+      - 🇭🇰 香港 柴湾  /0/3  F34
+      - 🇭🇰 香港 柴湾  /0/4  F35
+      - 🇭🇰 香港 柴湾  /0/5  F36
+      - 🇭🇰 香港 柴湾  /0/6  F37
+      - 🇭🇰 香港 柴湾  /0/7  F38
+      - 🇭🇰 香港 Sha Tin 4 /0/13  F21
+      - 🇭🇰 香港 Sha Tin 4 /0/14  F22
+      - 🇭🇰 香港 Sha Tin 4 /0/15  F23
+      - 🇭🇰 香港 Sha Tin 4 /0/16  F24
+      - 🇭🇰 香港 Sha Tin 4 /0/17  F25
+      - 🇭🇰 香港 Sha Tin 4 /0/18  F26
+      - 🇭🇰 香港 Sha Tin 4 /0/19  F27
+      - 🇭🇰 香港 Sha Tin 4 /0/20  F28
+      - 🇭🇰 香港 Sha Tin 4 /0/21  F29
+      - 🇭🇰 香港 Sha Tin 4 /0/22  F30
+      - 🇭🇰 香港 Sha Tin 4 /0/0  F05
+      - 🇭🇰 香港 Sha Tin 4 /0/1  F06
+      - 🇭🇰 香港 Sha Tin 4 /0/2  F07
+      - 🇭🇰 香港 Sha Tin 4 /0/3  F08
+      - 🇭🇰 香港 Sha Tin 4 /0/4  F09
+      - 🇭🇰 香港 Sha Tin 4 /0/5  F10
+      - 🇭🇰 香港 Sha Tin 4 /0/6  F11
+      - 🇭🇰 香港 Sha Tin 4 /0/7  F12
+      - 🇭🇰 香港 Tsuen Wan 1 /0/0   F01
+      - 🇭🇰 香港 Tsuen Wan 1 /0/1  F02
+      - 🇭🇰 香港 Tsuen Wan 1 /0/2  F03
+      - 🇭🇰 香港 Tsuen Wan 1 /0/3  F04
+      - 🇭🇰 香港 Tsuen Wan 1 /0/10  F13
+      - 🇭🇰 香港 Tsuen Wan 1 /0/11  F14
+      - 🇭🇰 香港 Tsuen Wan 1 /0/12  F15
+      - 🇭🇰 香港 Tsuen Wan 1 /0/13  F16
+      - 🇭🇰 香港 Tsuen Wan 1 /0/14  F17
+      - 🇭🇰 香港 Tsuen Wan 1 /0/15  F18
+      - 🇭🇰 香港 Tsuen Wan 1 /0/16  F19
+      - 🇭🇰 香港 Tsuen Wan 1 /0/17  F20
+      - 🇮🇳 印度 孟买 Andheri East EQMB1 /0/0  F01
+      - 🇮🇳 印度 孟买 Andheri East EQMB1 /0/1  F02
+      - 🇮🇳 印度 孟买 Andheri East EQMB1 /0/2  F03
+      - 🇮🇳 印度 孟买 Andheri East EQMB1 /0/3  F04
+      - 🇮🇳 印度 孟买 Andheri East EQMB1 /0/4  F05
+      - 🇯🇵 日本 Osaka Nishi Ward EQOS1 /0/10  F19
+      - 🇯🇵 日本 Osaka Nishi Ward EQOS1 /0/15  F20
+      - 🇯🇵 日本 Osaka Nishi Ward EQOS1 /0/0  F15
+      - 🇯🇵 日本 Osaka Nishi Ward EQOS1 /0/1  F16
+      - 🇯🇵 日本 Osaka Nishi Ward EQOS1 /0/2  F17
+      - 🇯🇵 日本 Osaka Nishi Ward EQOS1 /0/3  F18
+      - 🇯🇵 日本 东京 品川 EQTY8 /0/0  F09
+      - 🇯🇵 日本 东京 品川 EQTY8 /0/1  F10
+      - 🇯🇵 日本 东京 品川 EQTY8 /0/2  F11
+      - 🇯🇵 日本 东京 品川 EQTY8 /0/3  F12
+      - 🇯🇵 日本 东京 品川 EQTY8 /0/4  F13
+      - 🇯🇵 日本 东京 品川 EQTY8 /0/5  F14
+      - 🇯🇵 日本 东京 Ōta City  /0/0  F01
+      - 🇯🇵 日本 东京 Ōta City  /0/1  F02
+      - 🇯🇵 日本 东京 Ōta City  /0/2  F03
+      - 🇯🇵 日本 东京 Ōta City  /0/3  F04
+      - 🇯🇵 日本 东京 Ōta City  /0/0  F05
+      - 🇯🇵 日本 东京 Ōta City  /0/1  F06
+      - 🇯🇵 日本 东京 Ōta City  /0/2  F07
+      - 🇯🇵 日本 东京 Ōta City  /0/3  F08
+      - 🇷🇺 俄罗斯 莫斯科 район Западное Дегунино  Дата-центр NORD /0/2  F03
+      - 🇷🇺 俄罗斯 莫斯科 район Западное Дегунино  Дата-центр NORD /0/3  F04
+      - 🇷🇺 俄罗斯 莫斯科 район Западное Дегунино  Дата-центр NORD /0/4  F05
+      - 🇷🇺 俄罗斯 莫斯科 район Западное Дегунино  Дата-центр NORD /0/0  F01
+      - 🇷🇺 俄罗斯 莫斯科 район Западное Дегунино  Дата-центр NORD /0/1  F02
+      - 🇸🇬 新加坡 Central Queenstown  /0/0  F01
+      - 🇸🇬 新加坡 Central Queenstown  /0/1  F02
+      - 🇸🇬 新加坡 Central Queenstown  /0/2  F03
+      - 🇸🇬 新加坡 Central Queenstown  /0/3  F04
+      - 🇸🇬 新加坡 Central Queenstown  /0/4  F05
+      - 🇸🇬 新加坡 Central Queenstown  /0/5  F06
+      - 🇸🇬 新加坡 Central Queenstown  /0/6  F07
+      - 🇸🇬 新加坡 Central Queenstown  /0/7  F08
+      - 🇸🇬 新加坡 Central Queenstown  /0/8  F09
+      - 🇸🇬 新加坡 Central Queenstown  /0/9  F10
+      - 🇰🇷 韩国 首尔 Mapo-gu 1 /0/0  F01
+      - 🇰🇷 韩国 首尔 Mapo-gu 1 /0/1  F02
+      - 🇰🇷 韩国 首尔 Mapo-gu 1 /0/2  F03
+      - 🇰🇷 韩国 首尔 Mapo-gu 1 /0/3  F04
+      - 🇰🇷 韩国 首尔 Mapo-gu 1 /0/4  F05
+      - 🇰🇷 韩国 首尔 Mapo-gu 1 /0/5  F06
+      - 🇰🇷 韩国 首尔 Mapo-gu 1 /0/6  F07
+      - 🇰🇷 韩国 首尔 Mapo-gu 1 /0/7  F08
+      - 🇰🇷 韩国 首尔 Mapo-gu 1 /0/8  F09
+      - 🇰🇷 韩国 首尔 Mapo-gu 1 /0/9  F10
+      - 🇨🇳 台湾 Hsinchu Zhubei /0/0 DL360G10 F17
+      - 🇨🇳 台湾 Hsinchu Zhubei /0/1 DL360G10 F18
+      - 🇨🇳 台湾 Hsinchu Zhubei /0/2 DL360G10 F19
+      - 🇨🇳 台湾 Hsinchu Zhubei /0/3 DL360G10 F20
+      - 🇨🇳 台湾 New Taipei  /0/0  F01
+      - 🇨🇳 台湾 New Taipei  /0/1  F02
+      - 🇨🇳 台湾 New Taipei  /0/2  F03
+      - 🇨🇳 台湾 New Taipei  /0/3  F04
+      - 🇨🇳 台湾 Taipei Xinyi /0/0  F05
+      - 🇨🇳 台湾 Taipei Xinyi /0/1  F06
+      - 🇨🇳 台湾 Taipei Xinyi /0/2 DELLC6520#1 F07
+      - 🇨🇳 台湾 Taipei Xinyi /0/3 DELLC6520#2 F08
+      - 🇨🇳 台湾 Taipei Xinyi /0/4 DELLC6520#3 F09
+      - 🇨🇳 台湾 Taipei Xinyi /0/5 DELLC6520#4 F10
+      - 🇨🇳 台湾 Zhongli Renmei /0/0 DL360G11 F11
+      - 🇨🇳 台湾 Zhongli Renmei /0/1 DL360G11 F12
+      - 🇨🇳 台湾 Zhongli Renmei /0/2 DL360G11 F13
+      - 🇨🇳 台湾 Zhongli Renmei /0/3 DL360G11 F14
+      - 🇨🇳 台湾 Zhongli Renmei /0/4 DL360G11 F15
+      - 🇨🇳 台湾 Zhongli Renmei /0/5 DL360G11 F16
+      - 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/10  F01
+      - 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/11  F02
+      - 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/12  F03
+      - 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/13  F04
+      - 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/14  F05
+      - 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/15  F06
+      - 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/16  F07
+      - 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/2  F08
+      - 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/3  F09
+      - 🇬🇧 英国 伦敦 Borough of Bexley Erith /0/4  F10
+      - 🇺🇸 美国 华盛顿 西雅图  /0/0  F01
+      - 🇺🇸 美国 华盛顿 西雅图  /0/1  F02
+      - 🇺🇸 美国 华盛顿 西雅图  /0/2  F03
+      - 🇺🇸 美国 华盛顿 西雅图  /0/3  F04
+      - 🇺🇸 美国 华盛顿 西雅图  /0/4  F05
+      - 🇺🇸 美国 华盛顿 西雅图  /0/5  F06
+      - 🇺🇸 美国 华盛顿 西雅图  /0/6  F07
+      - 🇺🇸 美国 华盛顿 西雅图  /0/7  F08
+      - 🇺🇸 美国 华盛顿 西雅图  /0/8  F09
+      - 🇺🇸 美国 华盛顿 西雅图  /0/9  F10
+      - 🇦🇶 南极 /0/27 DELLXR5610 F01
+      - 🇰🇵 朝鲜平壤 /0/10 HuaweiRH1288V3 F01
+      - 🇲🇴 澳门 /0/2  F01
+      - 🇭🇰 香港高级  01
+      - 🇭🇰 香港高级  02
+      - 🇭🇰 香港高级  03
+      - 🇭🇰 香港高级  04
+      - 🇭🇰 香港高级  05
+      - 🇭🇰 香港高级  06
+      - H组(仅展示，不要选这个)
+      - 🇨🇳 H1慢 台湾 01
+      - 🇨🇳 H1慢 台湾 02
+      - 🇨🇳 H1慢 台湾 03
+      - 🇨🇳 H1慢 台湾 04
+      - 🇸🇬 H1慢 新加坡 01
+      - 🇸🇬 H1慢 新加坡 02
+      - 🇸🇬 H1慢 新加坡 03
+      - 🇸🇬 H1慢 新加坡 04
+      - 🇯🇵 H1慢 日本 01
+      - 🇯🇵 H1慢 日本 02
+      - 🇯🇵 H1慢 日本 03
+      - 🇯🇵 H1慢 日本 04
+      - 🇺🇸 H1慢 美国 01
+      - 🇺🇸 H1慢 美国 02
+      - 🇺🇸 H1慢 美国 03
+      - 🇺🇸 H1慢 美国 04
+      - 🇭🇰 H1慢 香港 01
+      - 🇭🇰 H1慢 香港 02
+      - 🇭🇰 H1慢 香港 03
+      - 🇭🇰 H1慢 香港 04
+      - 🇭🇰 H1慢 香港 05
+      - 🇭🇰 H1慢 香港 06
+      - 🇭🇰 H1慢 香港 07
+      - 🇭🇰 H1慢 香港 08
+      - 🇨🇳 H2快 台湾 01
+      - 🇨🇳 H2快 台湾 02
+      - 🇨🇳 H2快 台湾 03
+      - 🇨🇳 H2快 台湾 04
+      - 🇸🇬 H2快 新加坡 01
+      - 🇸🇬 H2快 新加坡 02
+      - 🇸🇬 H2快 新加坡 03
+      - 🇸🇬 H2快 新加坡 04
+      - 🇯🇵 H2快 日本 01
+      - 🇯🇵 H2快 日本 02
+      - 🇯🇵 H2快 日本 03
+      - 🇯🇵 H2快 日本 04
+      - 🇺🇸 H2快 美国 01
+      - 🇺🇸 H2快 美国 02
+      - 🇺🇸 H2快 美国 03
+      - 🇺🇸 H2快 美国 04
+      - 🇭🇰 H2快 香港 01
+      - 🇭🇰 H2快 香港 02
+      - 🇭🇰 H2快 香港 03
+      - 🇭🇰 H2快 香港 04
+      - 🇭🇰 H2快 香港 05
+      - 🇭🇰 H2快 香港 06
+      - 🇭🇰 H2快 香港 07
+      - 🇭🇰 H2快 香港 08
+      - 🇭🇰 H2快 香港 09
+      - 🇭🇰 H2快 香港 10
+      - C组 (仅展示，不要选这个)
+      - 🇨🇳 台湾 TW C-2 01
+      - 🇨🇳 台湾 TW C-2 02
+      - 🇨🇳 台湾 TW C-2 03
+      - 🇨🇳 台湾 TW C-2 04
+      - 🇨🇳 台湾 TW C-2 05
+      - 🇨🇳 台湾 TW C-2 06
+      - 🇨🇳 台湾 TW C-2 07
+      - 🇨🇳 台湾 TW C-2 08
+      - 🇸🇬 新加坡 SG C-2 01
+      - 🇸🇬 新加坡 SG C-2 02
+      - 🇸🇬 新加坡 SG C-2 03
+      - 🇸🇬 新加坡 SG C-2 04
+      - 🇸🇬 新加坡 SG C-2 05
+      - 🇸🇬 新加坡 SG C-2 06
+      - 🇸🇬 新加坡 SG C-2 07
+      - 🇸🇬 新加坡 SG C-2 08
+      - 🇸🇬 新加坡 SG C-2 09
+      - 🇸🇬 新加坡 SG C-2 10
+      - 🇯🇵 日本 JP C-2 01
+      - 🇯🇵 日本 JP C-2 02
+      - 🇯🇵 日本 JP C-2 03
+      - 🇯🇵 日本 JP C-2 04
+      - 🇯🇵 日本 JP C-2 05
+      - 🇯🇵 日本 JP C-2 06
+      - 🇯🇵 日本 JP C-2 07
+      - 🇯🇵 日本 JP C-2 08
+      - 🇺🇸 美国 US C-2 01
+      - 🇺🇸 美国 US C-2 02
+      - 🇺🇸 美国 US C-2 03
+      - 🇺🇸 美国 US C-2 04
+      - 🇺🇸 美国 US C-2 05
+      - 🇺🇸 美国 US C-2 06
+      - 🇺🇸 美国 US C-2 07
+      - 🇺🇸 美国 US C-2 08
+      - 🇭🇰 香港 HK C-2 01
+      - 🇭🇰 香港 HK C-2 02
+      - 🇭🇰 香港 HK C-2 03
+      - 🇭🇰 香港 HK C-2 04
+      - 🇭🇰 香港 HK C-2 05
+      - 🇭🇰 香港 HK C-2 06
+      - 🇭🇰 香港 HK C-2 07
+      - 🇭🇰 香港 HK C-2 08
+      - 🇭🇰 香港 HK C-2 09
+      - 🇭🇰 香港 HK C-2 10
+      - Y1组 备用Y1
+      - 🇦🇷 [SS] 阿根廷01 备用Y1
+      - 🇦🇷 [SS] 阿根廷02 备用Y1
+      - 🇨🇳 [SS] 台湾01 备用Y1
+      - 🇨🇳 [SS] 台湾02 备用Y1
+      - 🇨🇳 [SS] 台湾03 备用Y1
+      - 🇨🇳 [SS] 台湾04 备用Y1
+      - 🇨🇳 [SS] 台湾05 备用Y1
+      - 🇨🇳 [SS] 台湾06 备用Y1
+      - 🇨🇳 [SS] 台湾07 备用Y1
+      - 🇨🇳 [SS] 台湾08 备用Y1
+      - 🇨🇳 [SS] 台湾09 备用Y1
+      - 🇨🇳 [SS] 台湾10 备用Y1
+      - 🇬🇧 [SS] 英国01 备用Y1
+      - 🇬🇧 [SS] 英国02 备用Y1
+      - 🇬🇧 [SS] 英国03 备用Y1
+      - 🇬🇧 [SS] 英国04 备用Y1
+      - 🇬🇧 [SS] 英国05 备用Y1
+      - 🇭🇰 [SS] 香港01 备用Y1
+      - 🇭🇰 [SS] 香港02 备用Y1
+      - 🇭🇰 [SS] 香港03 备用Y1
+      - 🇭🇰 [SS] 香港04 备用Y1
+      - 🇭🇰 [SS] 香港05 备用Y1
+      - 🇭🇰 [SS] 香港06 备用Y1
+      - 🇭🇰 [SS] 香港07 备用Y1
+      - 🇭🇰 [SS] 香港08 备用Y1
+      - 🇭🇰 [SS] 香港09 备用Y1
+      - 🇭🇰 [SS] 香港10 备用Y1
+      - 🇭🇰 [SS] 香港11 备用Y1
+      - 🇭🇰 [SS] 香港12 备用Y1
+      - 🇭🇰 [SS] 香港13 备用Y1
+      - 🇭🇰 [SS] 香港14 备用Y1
+      - 🇭🇰 [SS] 香港15 备用Y1
+      - 🇭🇰 [SS] 香港16 备用Y1
+      - 🇭🇰 [SS] 香港17 备用Y1
+      - 🇭🇰 [SS] 香港18 备用Y1
+      - 🇭🇰 [SS] 香港19 备用Y1
+      - 🇭🇰 [SS] 香港20 备用Y1
+      - 🇯🇵 [SS] 日本01 备用Y1
+      - 🇯🇵 [SS] 日本02 备用Y1
+      - 🇯🇵 [SS] 日本03 备用Y1
+      - 🇯🇵 [SS] 日本04 备用Y1
+      - 🇯🇵 [SS] 日本05 备用Y1
+      - 🇯🇵 [SS] 日本06 备用Y1
+      - 🇯🇵 [SS] 日本07 备用Y1
+      - 🇯🇵 [SS] 日本08 备用Y1
+      - 🇯🇵 [SS] 日本09 备用Y1
+      - 🇯🇵 [SS] 日本10 备用Y1
+      - 🇲🇾 [SS] 马来西亚01 备用Y1
+      - 🇲🇾 [SS] 马来西亚02 备用Y1
+      - 🇲🇾 [SS] 马来西亚03 备用Y1
+      - 🇲🇾 [SS] 马来西亚04 备用Y1
+      - 🇲🇾 [SS] 马来西亚05 备用Y1
+      - 🇸🇬 [SS] 新加坡01 备用Y1
+      - 🇸🇬 [SS] 新加坡02 备用Y1
+      - 🇸🇬 [SS] 新加坡03 备用Y1
+      - 🇸🇬 [SS] 新加坡04 备用Y1
+      - 🇸🇬 [SS] 新加坡05 备用Y1
+      - 🇸🇬 [SS] 新加坡06 备用Y1
+      - 🇸🇬 [SS] 新加坡07 备用Y1
+      - 🇸🇬 [SS] 新加坡08 备用Y1
+      - 🇸🇬 [SS] 新加坡09 备用Y1
+      - 🇸🇬 [SS] 新加坡10 备用Y1
+      - 🇹🇷 [SS] 土耳其01 备用Y1
+      - 🇹🇷 [SS] 土耳其02 备用Y1
+      - 🇺🇸 [SS] 美国01 备用Y1
+      - 🇺🇸 [SS] 美国02 备用Y1
+      - 🇺🇸 [SS] 美国03 备用Y1
+      - 🇺🇸 [SS] 美国04 备用Y1
+      - 🇺🇸 [SS] 美国05 备用Y1
+      - 🇺🇸 [SS] 美国06 备用Y1
+      - 🇺🇸 [SS] 美国07 备用Y1
+      - 🇺🇸 [SS] 美国08 备用Y1
+      - 🇺🇸 [SS] 美国09 备用Y1
+      - 🇺🇸 [SS] 美国10 备用Y1
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+rules:
+  - DOMAIN-SUFFIX,local,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,17.0.0.0/8,DIRECT
+  - IP-CIDR,100.64.0.0/10,DIRECT
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🚀 节点选择
